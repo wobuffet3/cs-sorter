@@ -8,12 +8,12 @@ dataSet[dataSetVersion].options = [
     tooltip: "Check this to restrict to certain races.",
     checked: false,
     sub: [
-      { name: "Human", key: "hum" },
+      { name: "Human", key: "human" },
       { name: "Elf", key: "elf" },
-      { name: "Dwarf", key: "dwa" },
+      { name: "Dwarf", key: "dwarf" },
       { name: "Ork", key: "ork" },
       { name: "Lizardman", key: "liz" },
-      { name: "Gessy", tooltip: "Furries", key: "ges" },
+      { name: "Gessy", tooltip: "Furries", key: "gessy" },
       { name: "Jipangese", tooltip: "Foreign humans", key: "jip" },
       { name: "Ancient", tooltip: "Long-lived dragon-like beings", key: "anc" },
     ]
