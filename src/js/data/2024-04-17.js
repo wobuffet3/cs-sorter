@@ -33,7 +33,7 @@ dataSet[dataSetVersion].options = [
     checked: false,
     sub: [
       { name: "Fire", key: "fire" },
-      { name: "Water", key: "wat" },
+      { name: "Water", key: "water" },
       { name: "Wind", key: "wind" },
       { name: "Earth", key: "earth" },
       { name: "Dark", key: "dark" },
@@ -80,7 +80,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Abel",
     img: "abel.png",
     opts: {
-      race: [ "human" ],
+      race: ["human"],
       star: ["1"],
       ele: ["light"],
       class: ["tank"],
@@ -88,125 +88,170 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Kirisame Marisa",
-    img: "tJnkSzK.png",
+    name: "Adel",
+    img: "adel.png",
     opts: {
-      series: [ "book", "EoSD", "PCB", "IaMP", "IN", "PoFV", "StB", "SWR", "MoF", "SA", "UFO", "soku", "DS", "GFW", "TD", "HM", "DDC", "ISC", "ULiL", "LoLK", "AoCF", "HSiFS", "VD", "WBaWC", "UM" ],
-      stage: ["st4", "ex"]
+      race: ["human"],
+      star: ["1"],
+      ele: ["light"],
+      class: ["tank"],
+      gender: ["f"]
     }
   },
   {
-    name: "Rumia",
-    img: "0YT7QlS.png",
+    name: "Alfred",
+    img: "alfred.png",
     opts: {
-      series: ["book", "EoSD", "StB", "HM"],
-      stage: ["st1"]
+      race: ["human"],
+      star: ["3"],
+      ele: ["earth"],
+      class: ["buff"],
+      gender: ["m"]
     }
   },
   {
-    name: "Daiyousei",
-    img: "NWlZud3.png",
+    name: "Amelia",
+    img: "amelia.png",
     opts: {
-      series: ["book", "EoSD"],
-      stage: ["st2", "ex"],
-      nameless: true
+      race: ["human"],
+      star: ["1"],
+      ele: ["fire"],
+      class: ["heal"],
+      gender: ["f"]
     },
   },
   {
-    name: "Cirno",
-    img: "qdveFSy.png",
+    name: "Hamham Amelia",
+    img: "ameliaAlt.png",
     opts: {
-      series: [ "book", "EoSD", "PCB", "PoFV", "StB", "soku", "GFW", "HM", "DDC", "ISC", "HSiFS" ],
-      stage: ["st2"]
+      race: ["human"],
+      star: ["5"],
+      ele: ["fire"],
+      class: ["tank"],
+      gender: ["f"],
+      alt: true
     }
   },
   {
-    name: "Hong Meiling",
-    img: "ptGp0x4.png",
+    name: "Arman",
+    img: "arman.png",
     opts: {
-      series: ["book", "EoSD", "IaMP", "StB", "soku"],
-      stage: ["st3"]
+      race: ["human"],
+      star: ["5"],
+      ele: ["wind"],
+      class: ["mk"],
+      gender: ["f"]
     }
   },
   {
-    name: "Koakuma",
-    img: "vBKdDm4.png",
+    name: "Armidal",
+    img: "armidal.png",
     opts: {
-      series: ["book", "EoSD"],
-      stage: ["st4"],
-      nameless: true
+      race: ["human"],
+      star: ["3"],
+      ele: ["wind"],
+      class: ["buff"],
+      gender: ["m"]
     }
   },
   {
-    name: "Patchouli Knowledge",
-    img: "A7ZnuHo.png",
+    name: "Azzaria",
+    img: "azzaria.png",
     opts: {
-      series: ["book", "EoSD", "IaMP", "StB", "SWR", "soku", "HM"],
-      stage: ["st4", "ex"]
+      race: ["human"],
+      star: ["5"],
+      ele: ["water"],
+      class: ["mage"],
+      gender: ["f"]
     }
   },
   {
-    name: "Izayoi Sakuya",
-    img: "sgZPf11.png",
+    name: "Berneka",
+    img: "berneka.png",
     opts: {
-      series: [ "book", "EoSD", "PCB", "IaMP", "IN", "PoFV", "StB", "SWR", "soku", "HM", "DDC", "ISC", "UM" ],
-      stage: ["st5", "st6"]
+      race: ["human"],
+      star: ["2"],
+      ele: ["fire"],
+      class: ["mk"],
+      gender: ["f"]
     }
   },
   {
-    name: "Remilia Scarlet",
-    img: "8UX7hKE.png",
+    name: "Bret",
+    img: "bret.png",
     opts: {
-      series: ["book", "EoSD", "IaMP", "IN", "StB", "SWR", "soku", "HM", "ISC", "VD"],
-      stage: ["st6"]
+      race: ["human"],
+      star: ["1"],
+      ele: ["org"],
+      class: ["dps"],
+      gender: ["m"]
     }
   },
   {
-    name: "Flandre Scarlet",
-    img: "OhaDcnc.png",
+    name: "Calamity",
+    img: "calamity.png",
     opts: {
-      series: ["book", "EoSD", "StB", "VD"],
-      stage: ["ex"]
+      race: ["human"],
+      star: ["4"],
+      ele: ["dark"],
+      class: ["mk"],
+      gender: ["m"]
     }
   },
   {
-    name: "Letty Whiterock",
-    img: "MgzqjFK.png",
+    name: "Dylan",
+    img: "dylan.png",
     opts: {
-      series: ["book", "PCB", "StB", "HM"],
-      stage: ["st1"]
+      race: ["human"],
+      star: ["2"],
+      ele: ["water"],
+      class: ["dps"],
+      gender: ["m"]
     }
   },
   {
-    name: "Chen",
-    img: "ohmetZh.png",
+    name: "Edda",
+    img: "edda.png",
     opts: {
-      series: ["book", "PCB", "IaMP", "StB", "SWR", "soku", "HM"],
-      stage: ["st2", "ex"]
+      race: ["human"],
+      star: ["1"],
+      ele: ["dark"],
+      class: ["deb"],
+      gender: ["f"]
     }
   },
   {
-    name: "Alice Margatroid",
-    img: "aDIf0pN.png",
+    name: "Sorrowful Swordswoman Edda",
+    img: "eddaAlt.png",
     opts: {
-      series: ["book", "PCB", "IaMP", "IN", "StB", "SWR", "soku", "HM"],
-      stage: ["st3"]
+      race: ["human"],
+      star: ["5"],
+      ele: ["light"],
+      class: ["mk"],
+      gender: ["f"],
+      alt: true
     }
   },
   {
-    name: "Lily White",
-    img: "2Pr8b2N.png",
+    name: "Eirich",
+    img: "eirich.png",
     opts: {
-      series: ["book", "PCB", "PoFV", "HM", "HSiFS"],
-      stage: ["st4", "ex"]
+      race: ["human"],
+      star: ["5"],
+      ele: ["light"],
+      class: ["tri"],
+      gender: ["m"]
     }
   },
   {
-    name: "Lunasa Prismriver",
-    img: "htOMdDQ.png",
+    name: "Edda",
+    img: "edda.png",
     opts: {
-      series: ["book", "PCB", "PoFV", "HM", "AoCF"],
-      stage: ["st4"]
+      race: ["human"],
+      star: ["1"],
+      ele: ["dark"],
+      class: ["deb"],
+      gender: ["f"]
     }
   },
   {
