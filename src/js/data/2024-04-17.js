@@ -870,11 +870,14 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Futatsuiwa Mamizou",
-    img: "gMpWdmA.png",
+    name: "Alfaro",
+    img: "alfaro.png",
     opts: {
-      series: ["TD", "HM", "ISC", "ULiL", "AoCF", "VD"],
-      stage: ["ex"]
+      race: ["elf"],
+      star: ["3"],
+      ele: ["dark"],
+      class: ["dps"],
+      gender: ["m"]
     }
   },
   {
