@@ -191,7 +191,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Calamity",
     img: "calamity.png",
     opts: {
-      race: ["human", "jip"],
+      race: ["human"],
       star: ["4"],
       ele: ["dark"],
       class: ["mk"],
@@ -303,7 +303,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Gao",
     img: "gao.png",
     opts: {
-      race: ["human", "jip"],
+      race: ["human"],
       star: ["3"],
       ele: ["earth"],
       class: ["tri"],
@@ -381,7 +381,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Hattan",
     img: "hattan.png",
     opts: {
-      race: ["human", "jip"],
+      race: ["human"],
       star: ["4"],
       ele: ["dark"],
       class: ["sh"],
@@ -392,7 +392,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Hayami",
     img: "hayami.png",
     opts: {
-      race: ["human", "jip"],
+      race: ["human"],
       star: ["5"],
       ele: ["light"],
       class: ["tri"],
@@ -403,7 +403,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Itsuki",
     img: "itsuki.png",
     opts: {
-      race: ["human", "jip"],
+      race: ["human"],
       star: ["5"],
       ele: ["light"],
       class: ["mage"],
@@ -425,7 +425,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Kaito",
     img: "kaito.png",
     opts: {
-      race: ["human", "jip"],
+      race: ["human"],
       star: ["3"],
       ele: ["water"],
       class: ["mk"],
@@ -525,7 +525,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Martha",
     img: "martha.png",
     opts: {
-      race: ["human", "jip"],
+      race: ["human"],
       star: ["2"],
       ele: ["water"],
       class: ["tri"],
@@ -559,7 +559,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Misakura",
     img: "misakura.png",
     opts: {
-      race: ["human", "jip"],
+      race: ["human"],
       star: ["5"],
       ele: ["dark"],
       class: ["mk"],
@@ -570,7 +570,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Kyubi Misakura",
     img: "misakuraAlt.png",
     opts: {
-      race: ["human", "jip"],
+      race: ["human"],
       star: ["6"],
       ele: ["fire"],
       class: ["dps"],
