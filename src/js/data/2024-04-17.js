@@ -27,20 +27,41 @@ dataSet[dataSetVersion].options = [
     ]
   },
   {
-    name: "Enable alt forms",
+    name: "Filter by Element",
+    key: "element",
+    tooltip: "Check this to restrict to certain elements.",
+    checked: false,
+    sub: [
+      { name: "Fire", key: "fire" },
+      { name: "Water", key: "wat" },
+      { name: "Wind", key: "wind" },
+      { name: "Earth", key: "earth" },
+      { name: "Dark", key: "dark" },
+      { name: "Light", key: "lig" },
+      { name: "Origin", key: "org" },
+    ]
+  },
+  {
+    name: "Filter by Class",
+    key: "class",
+    tooltip: "Check this to restrict to certain classes.",
+    checked: false,
+    sub: [
+      { name: "Tank", key: "tank" },
+      { name: "Attacker", key: "dps" },
+      { name: "Magic Knight", key: "mk" },
+      { name: "Shooter", key: "sh" },
+      { name: "Magician", key: "mag" },
+      { name: "Healer", key: "heal" },
+      { name: "Buffer", key: "buff" },
+      { name: "Debuffer", key: "deb" },
+      { name: "Trickster", key: "tri" },
+    ]
+  },
+  {
+    name: "Enable Alt Forms",
     key: "alt",
     tooltip: "Check this to show characters with alternate forms, such as Psychopomp Sophia or Moon Bunny Mimi."
-  },
-  {
-    name: "Remove Non-Girls",
-    key: "notgirl",
-    tooltip: "Check this to remove all non-female characters."
-  },
-  {
-    name: "Remove Nameless Characters",
-    key: "nameless",
-    tooltip: "Check this to remove all characters without canonical names.",
-    checked: false
   }
 ];
 
