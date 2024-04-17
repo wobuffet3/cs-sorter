@@ -19,17 +19,17 @@ dataSet[dataSetVersion].options = [
     ]
   },
   {
-    name: "Filter by Stage Enemy Appearances",
-    key: "stage",
-    tooltip: "Check this to restrict to characters that appear in certain stages as enemies.",
+    name: "Filter by Starting Rarity",
+    key: "rarity",
+    tooltip: "Check this to restrict to characters of certain base star levels.",
     checked: false,
-    sub: [ { name: "Stage 1", key: "st1" }, { name: "Stage 2", key: "st2" }, { name: "Stage 3", key: "st3" }, { name: "Stage 4", key: "st4" }, { name: "Stage 5/Penultimate", tooltip: "Stage 4 in 5-stage games, and Stage 8 in 9-stage games.", key: "st5" }, { name: "Stage 6/Final", key: "st6" }, { name: "Stage EX/Phantasm", key: "ex" }
+    sub: [ { name: "1★", key: "1" }, { name: "2★", key: "2" }, { name: "3★", key: "3" }, { name: "4★", key: "4" }, { name: "5★", key: "5" }, { name: "6★", key: "6" }
     ]
   },
   {
-    name: "Remove PC-98 Duplicates",
-    key: "pc98",
-    tooltip: "Check this to remove PC-98 characters with a Windows counterpart."
+    name: "Enable alt forms",
+    key: "alt",
+    tooltip: "Check this to show characters with alternate forms, such as Psychopomp Sophia or Moon Bunny Mimi."
   },
   {
     name: "Remove Non-Girls",
