@@ -680,139 +680,193 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Nazrin",
-    img: "EpHQbiY.png",
+    name: "Riot",
+    img: "riot.png",
     opts: {
-      series: ["UFO", "DS", "HM"],
-      stage: ["st1", "st5"]
+      race: ["human"],
+      star: ["2"],
+      ele: ["earth"],
+      class: ["tank"],
+      gender: ["m"]
     }
   },
   {
-    name: "Tatara Kogasa",
-    img: "kJbv4dc.png",
+    name: "Roddie",
+    img: "roddie.png",
     opts: {
-      series: ["UFO", "TD", "DS", "HM"],
-      stage: ["st2", "ex"]
+      race: ["human"],
+      star: ["4"],
+      ele: ["water"],
+      class: ["dps"],
+      gender: ["m"]
     }
   },
   {
-    name: "Kumoi Ichirin",
-    img: "Fyn5yVx.png",
+    name: "Rolomeu",
+    img: "rolomeu.png",
     opts: {
-      series: ["UFO", "DS", "HM", "ULiL", "AoCF"],
-      stage: ["st3"]
+      race: ["human"],
+      star: ["1"],
+      ele: ["fire"],
+      class: ["buff"],
+      gender: ["f"]
     }
   },
   {
-    name: "Murasa Minamitsu",
-    img: "39KYpvW.png",
+    name: "Dreamflyer Rolomeu",
+    img: "rolomeuAlt.png",
     opts: {
-      series: ["UFO", "DS", "HM"],
-      stage: ["st4"]
+      race: ["human"],
+      star: ["5"],
+      ele: ["fire"],
+      class: ["deb"],
+      gender: ["f"],
+      alt: true
     }
   },
   {
-    name: "Toramaru Shou",
-    img: "5yihisu.png",
+    name: "Sanada Yukimura",
+    img: "sanada.png",
     opts: {
-      series: ["UFO", "DS", "HM"],
-      stage: ["st5"]
+      race: ["human"],
+      star: ["4"],
+      ele: ["fire"],
+      class: ["tri"],
+      gender: ["m"]
     }
   },
   {
-    name: "Hijiri Byakuren",
-    img: "2ppPxny.png",
+    name: "Sophia",
+    img: "sophia.png",
     opts: {
-      series: ["UFO", "DS", "HM", "ISC", "ULiL", "AoCF", "VD"],
-      stage: ["st6"]
+      race: ["human"],
+      star: ["3"],
+      ele: ["light"],
+      class: ["tank"],
+      gender: ["f"]
     }
   },
   {
-    name: "Houjuu Nue",
-    img: "zL4S8Mj.png",
+    name: "Psychopomp Sophia",
+    img: "sophiaAlt.png",
     opts: {
-      series: ["UFO", "DS", "TD", "HM", "VD"],
-      stage: ["st4", "st6", "ex"]
+      race: ["human"],
+      star: ["5"],
+      ele: ["light"],
+      class: ["dps"],
+      gender: ["f"],
+      alt: true
     }
   },
   {
-    name: "Himekaidou Hatate",
-    img: "LgvoTaJ.png",
+    name: "Trick",
+    img: "trick.png",
     opts: {
-      series: ["DS", "HM", "ISC"],
-      stage: ["ex"]
+      race: ["human"],
+      star: ["5"],
+      ele: ["dark"],
+      class: ["deb"],
+      gender: ["m"]
     }
   },
   {
-    name: "Sunny Milk",
-    img: "VbqXiB6.png",
+    name: "Veronica",
+    img: "veronica.png",
     opts: {
-      series: ["book", "GFW", "HM"],
-      stage: ["st1", "st2", "st3"]
+      race: ["human"],
+      star: ["3"],
+      ele: ["dark"],
+      class: ["tri"],
+      gender: ["f"]
     }
   },
   {
-    name: "Luna Child",
-    img: "OBqgP48.png",
+    name: "Volf",
+    img: "volf.png",
     opts: {
-      series: ["book", "GFW", "HM"],
-      stage: ["st1", "st2", "st3"]
+      race: ["human"],
+      star: ["5"],
+      ele: ["earth"],
+      class: ["dps"],
+      gender: ["m"]
     }
   },
   {
-    name: "Star Sapphire",
-    img: "sNw61ap.png",
+    name: "Vongyra",
+    img: "vongyra",
     opts: {
-      series: ["book", "GFW", "HM"],
-      stage: ["st1", "st2", "st3"]
+      race: ["human"],
+      star: ["4"],
+      ele: ["earth"],
+      class: ["buff"],
+      gender: ["m"]
     }
   },
   {
-    name: "Kasodani Kyouko",
-    img: "sLiqEBA.png",
+    name: "Worwick",
+    img: "worwick.png",
     opts: {
-      series: ["TD", "HM", "ISC"],
-      stage: ["st2"]
+      race: ["human"],
+      star: ["5"],
+      ele: ["light"],
+      class: ["dps"],
+      gender: ["m"]
     }
   },
   {
-    name: "Miyako Yoshika",
-    img: "6jq6eh6.png",
+    name: "Unbound King Worwick",
+    img: "worwickAlt.png",
     opts: {
-      series: ["TD", "HM", "ISC"],
-      stage: ["st3", "st4"]
+      race: ["human"],
+      star: ["6"],
+      ele: ["dark"],
+      class: ["mk"],
+      gender: ["m"]
     }
   },
   {
-    name: "Kaku Seiga",
-    img: "090hLPL.png",
+    name: "Wyngaard",
+    img: "wyngaard.png",
     opts: {
-      series: ["TD", "HM", "ISC"],
-      stage: ["st4"]
+      race: ["human"],
+      star: ["3"],
+      ele: ["dark"],
+      class: ["tri"],
+      gender: ["m"]
     }
   },
   {
-    name: "Soga no Tojiko",
-    img: "y0UXwFO.png",
+    name: "Yoldo",
+    img: "yoldo.png",
     opts: {
-      series: ["TD", "HM"],
-      stage: ["st5"]
+      race: ["human"],
+      star: ["5"],
+      ele: ["light"],
+      class: ["dps"],
+      gender: ["m"]
     }
   },
   {
-    name: "Mononobe no Futo",
-    img: "WTZ97LE.png",
+    name: "Lord Yoldo",
+    img: "yoldo.png",
     opts: {
-      series: ["TD", "HM", "ISC", "ULiL", "AoCF"],
-      stage: ["st5"]
+      race: ["human"],
+      star: ["5"],
+      ele: ["dark"],
+      class: ["tank"],
+      gender: ["m"],
+      alt: true
     }
   },
   {
-    name: "Toyosatomimi no Miko",
-    img: "3Xiqd22.png",
+    name: "Akari",
+    img: "akari.png",
     opts: {
-      series: ["TD", "HM", "ISC", "ULiL", "AoCF", "VD"],
-      stage: ["st6"]
+      race: ["elf"],
+      star: ["5"],
+      ele: ["dark"],
+      class: ["tri"],
+      gender: ["f"]
     }
   },
   {
