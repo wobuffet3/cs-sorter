@@ -191,7 +191,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Calamity",
     img: "calamity.png",
     opts: {
-      race: ["human"],
+      race: ["human", "jip"],
       star: ["4"],
       ele: ["dark"],
       class: ["mk"],
@@ -244,318 +244,439 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Edda",
-    img: "edda.png",
+    name: "Emily",
+    img: "emily.png",
+    opts: {
+      race: ["human"],
+      star: ["4"],
+      ele: ["light"],
+      class: ["sh"],
+      gender: ["f"]
+    }
+  },
+  {
+    name: "Regent Emily",
+    img: "emilyAlt.png",
+    opts: {
+      race: ["human"],
+      star: ["5"],
+      ele: ["dark"],
+      class: ["sh"],
+      gender: ["f"],
+      alt: true
+    }
+  },
+  {
+    name: "Felix",
+    img: "felix.png",
+    opts: {
+      race: ["human"],
+      star: ["5"],
+      ele: ["dark"],
+      class: ["dps"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "Fholk",
+    img: "fholk.png",
     opts: {
       race: ["human"],
       star: ["1"],
+      ele: ["light"],
+      class: ["heal"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "Fitzwalt",
+    img: "fitzwalt.png",
+    opts: {
+      race: ["human"],
+      star: ["4"],
+      ele: ["earth"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "Gao",
+    img: "gao.png",
+    opts: {
+      race: ["human", "jip"],
+      star: ["3"],
+      ele: ["earth"],
+      class: ["tri"],
+      gender: ["f"]
+    }
+  },
+  {
+    name: "Garrett Han",
+    img: "garrett.png",
+    opts: {
+      race: ["human"],
+      star: ["4"],
+      ele: ["earth"],
+      class: ["dps"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "Valorous Sword Garrett Han",
+    img: "garrettAlt.png",
+    opts: {
+      race: ["human"],
+      star: ["5"],
+      ele: ["dark"],
+      class: ["mk"],
+      gender: ["m"],
+      alt: true
+    }
+  },
+  {
+    name: "Garstan",
+    img: "garstan.png",
+    opts: {
+      race: ["human"],
+      star: ["3"],
+      ele: ["light"],
+      class: ["deb"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "Gavin Break",
+    img: "gavin.png",
+    opts: {
+      race: ["human"],
+      star: ["5"],
+      ele: ["dark"],
+      class: ["tank"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "Glucan",
+    img: "glucan.png",
+    opts: {
+      race: ["human"],
+      star: ["5"],
+      ele: ["light"],
+      class: ["tank"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "Hannah",
+    img: "hannah.png",
+    opts: {
+      race: ["human"],
+      star: ["1"],
+      ele: ["origin"],
+      class: ["dps"],
+      gender: ["f"]
+    }
+  },
+  {
+    name: "Hattan",
+    img: "hattan.png",
+    opts: {
+      race: ["human", "jip"],
+      star: ["4"],
+      ele: ["dark"],
+      class: ["sh"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "Hayami",
+    img: "hayami.png",
+    opts: {
+      race: ["human", "jip"],
+      star: ["5"],
+      ele: ["light"],
+      class: ["tri"],
+      gender: ["f"]
+    }
+  },
+  {
+    name: "Itsuki",
+    img: "itsuki.png",
+    opts: {
+      race: ["human", "jip"],
+      star: ["5"],
+      ele: ["light"],
+      class: ["mage"],
+      gender: ["f"]
+    }
+  },
+  {
+    name: "Jillian",
+    img: "jillian.png",
+    opts: {
+      race: ["human"],
+      star: ["3"],
+      ele: ["water"],
+      class: ["sh"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "Kaito",
+    img: "kaito.png",
+    opts: {
+      race: ["human", "jip"],
+      star: ["3"],
+      ele: ["water"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "Kilian",
+    img: "kilian.png",
+    opts: {
+      race: ["human"],
+      star: ["3"],
+      ele: ["fire"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "Klea",
+    img: "klea.png",
+    opts: {
+      race: ["human"],
+      star: ["5"],
+      ele: ["wind"],
+      class: ["dps"],
+      gender: ["f"]
+    }
+  },
+  {
+    name: "Lena",
+    img: "lena.png",
+    opts: {
+      race: ["human"],
+      star: ["1"],
+      ele: ["wind"],
+      class: ["mage"],
+      gender: ["f"]
+    }
+  },
+  {
+    name: "Leuvre",
+    img: "leuvre.png",
+    opts: {
+      race: ["human"],
+      star: ["5"],
+      ele: ["fire"],
+      class: ["mage"],
+      gender: ["f"]
+    }
+  },
+  {
+    name: "Lombarde",
+    img: "lombarde.png",
+    opts: {
+      race: ["human"],
+      star: ["4"],
+      ele: ["earth"],
+      class: ["dps"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "Great General Lombarde",
+    img: "lombardeAlt.png",
+    opts: {
+      race: ["human"],
+      star: ["5"],
+      ele: ["fire"],
+      class: ["dps"],
+      gender: ["m"],
+      alt: true
+    }
+  },
+  {
+    name: "Ludmila",
+    img: "ludmila.png",
+    opts: {
+      race: ["human"],
+      star: ["2"],
       ele: ["dark"],
       class: ["deb"],
       gender: ["f"]
     }
   },
   {
-    name: "Merlin Prismriver",
-    img: "PrRPujP.png",
+    name: "Marbas",
+    img: "marbas.png",
     opts: {
-      series: ["book", "PCB", "PoFV", "HM", "AoCF"],
-      stage: ["st4"]
+      race: ["human"],
+      star: ["2"],
+      ele: ["wind"],
+      class: ["sh"],
+      gender: ["m"]
     }
   },
   {
-    name: "Lyrica Prismriver",
-    img: "ze79bFC.png",
+    name: "Martha",
+    img: "martha.png",
     opts: {
-      series: ["book", "PCB", "PoFV", "HM", "AoCF"],
-      stage: ["st4"]
+      race: ["human", "jip"],
+      star: ["2"],
+      ele: ["water"],
+      class: ["tri"],
+      gender: ["f"]
     }
   },
   {
-    name: "Konpaku Youmu",
-    img: "WMjyRLJ.png",
+    name: "Mimi",
+    img: "mimi.png",
     opts: {
-      series: [ "book", "PCB", "IaMP", "IN", "PoFV", "StB", "SWR", "soku", "TD", "HM", "ISC", "WBaWC" ],
-      stage: ["st5", "st6"]
+      race: ["human"],
+      star: ["2"],
+      ele: ["fire"],
+      class: ["mage"],
+      gender: ["f"]
     }
   },
   {
-    name: "Saigyouji Yuyuko",
-    img: "VT9mTGb.png",
+    name: "Moon Bunny Mimi",
+    img: "mimiAlt.png",
     opts: {
-      series: [ "book", "PCB", "IaMP", "IN", "StB", "SWR", "soku", "TD", "HM", "ISC", "VD" ],
-      stage: ["st1", "st6"]
+      race: ["human"],
+      star: ["5"],
+      ele: ["fire"],
+      class: ["tri"],
+      gender: ["f"],
+      alt: true
     }
   },
   {
-    name: "Yakumo Ran",
-    img: "rshnJPV.png",
+    name: "Misakura",
+    img: "misakura.png",
     opts: {
-      series: ["book", "PCB", "IaMP", "IN", "StB", "SWR", "soku", "HM", "VD"],
-      stage: ["ex"]
+      race: ["human", "jip"],
+      star: ["5"],
+      ele: ["dark"],
+      class: ["mk"],
+      gender: ["f"]
     }
   },
   {
-    name: "Yakumo Yukari",
-    img: "qsceD4I.png",
+    name: "Kyubi Misakura",
+    img: "misakuraAlt.png",
     opts: {
-      series: [ "book", "PCB", "IaMP", "IN", "StB", "SWR", "soku", "HM", "ISC", "AoCF", "VD" ],
-      stage: ["ex"]
+      race: ["human", "jip"],
+      star: ["6"],
+      ele: ["fire"],
+      class: ["dps"],
+      gender: ["f"],
+      alt: true
     }
   },
   {
-    name: "Ibuki Suika",
-    img: "pLdMjQ3.png",
+    name: "Molly",
+    img: "molly.png",
     opts: {
-      series: ["book", "IaMP", "StB", "SWR", "soku", "DS", "HM", "ISC", "VD"],
-      stage: ["st6"]
+      race: ["human"],
+      star: ["1"],
+      ele: ["fire"],
+      class: ["sh"],
+      gender: ["f"]
     }
   },
   {
-    name: "Wriggle Nightbug",
-    img: "8DLUAPf.png",
+    name: "Odysseia",
+    img: "odysseia.png",
     opts: {
-      series: ["book", "IN", "StB", "HM"],
-      stage: ["st1"]
+      race: ["human"],
+      star: ["3"],
+      ele: ["water"],
+      class: ["deb"],
+      gender: ["f"]
     }
   },
   {
-    name: "Mystia Lorelei",
-    img: "6KyhLqE.png",
+    name: "Piet",
+    img: "piet.png",
     opts: {
-      series: ["book", "IN", "PoFV", "StB", "HM"],
-      stage: ["st2"]
+      race: ["human"],
+      star: ["3"],
+      ele: ["water"],
+      class: ["tri"],
+      gender: ["m"]
     }
   },
   {
-    name: "Kamishirasawa Keine",
-    img: "99w0Chm.png",
+    name: "Ralph",
+    img: "ralph.png",
     opts: {
-      series: ["book", "IN", "StB", "HM", "ISC"],
-      stage: ["st3", "ex"]
+      race: ["human"],
+      star: ["4"],
+      ele: ["wind"],
+      class: ["tank"],
+      gender: ["m"]
     }
   },
   {
-    name: "Inaba Tewi",
-    img: "yqNfNje.png",
+    name: "Sword Sage Ralph",
+    img: "ralphAlt.png",
     opts: {
-      series: ["book", "IN", "PoFV", "StB", "HM"],
-      stage: ["st5"]
+      race: ["human"],
+      star: ["5"],
+      ele: ["fire"],
+      class: ["dps"],
+      gender: ["m"],
+      alt: true
     }
   },
   {
-    name: "Reisen Udongein Inaba",
-    img: "PrYzRcC.png",
+    name: "Ranvold",
+    img: "ranvold.png",
     opts: {
-      series: ["book", "IN", "PoFV", "StB", "soku", "HM", "LoLK", "AoCF"],
-      stage: ["st5"]
+      race: ["human"],
+      star: ["5"],
+      ele: ["fire"],
+      class: ["dps"],
+      gender: ["m"]
     }
   },
   {
-    name: "Yagokoro Eirin",
-    img: "ceo4DhK.png",
+    name: "Reaumur",
+    img: "reaumur.png",
     opts: {
-      series: ["book", "IN", "StB", "HM", "VD"],
-      stage: ["st6"]
+      race: ["human"],
+      star: ["3"],
+      ele: ["light"],
+      class: ["mage"],
+      gender: ["m"]
     }
   },
   {
-    name: "Houraisan Kaguya",
-    img: "2YDuTk3.png",
+    name: "Holy Flash Reaumur",
+    img: "reaumurAlt.png",
     opts: {
-      series: ["book", "IN", "StB", "HM", "VD"],
-      stage: ["st6"]
+      race: ["human"],
+      star: ["5"],
+      ele: ["light"],
+      class: ["mk"],
+      gender: ["m"],
+      alt: true
     }
   },
   {
-    name: "Fujiwara no Mokou",
-    img: "3zo4VKV.png",
+    name: "Rien",
+    img: "rien.png",
     opts: {
-      series: ["book", "IN", "StB", "HM", "ISC", "ULiL", "AoCF", "VD"],
-      stage: ["ex"]
-    }
-  },
-  {
-    name: "Shameimaru Aya",
-    img: "8TLXMST.png",
-    opts: {
-      series: [ "book", "PoFV", "StB", "SWR", "MoF", "soku", "HM", "ISC", "HSiFS" ],
-      stage: ["st4"]
-    }
-  },
-  {
-    name: "Medicine Melancholy",
-    img: "IImsp7K.png",
-    opts: {
-      series: ["book", "PoFV", "StB", "HM"],
-      stage: ["st4"]
-    }
-  },
-  {
-    name: "Kazami Yuuka",
-    img: "MZXJQq5.png",
-    opts: {
-      series: ["book", "PoFV", "StB", "HM"],
-      stage: ["st5"]
-    }
-  },
-  {
-    name: "Onozuka Komachi",
-    img: "aX4WIH8.png",
-    opts: {
-      series: ["book", "PoFV", "StB", "SWR", "soku", "HM"],
-      stage: ["st5"]
-    }
-  },
-  {
-    name: "Shiki Eiki, Yamaxanadu",
-    img: "nPBvatH.png",
-    opts: {
-      series: ["book", "PoFV", "StB", "HM", "VD"],
-      stage: ["st6"]
-    }
-  },
-  {
-    name: "Aki Shizuha",
-    img: "3pDRgvR.png",
-    opts: {
-      series: ["MoF", "DS", "HM"],
-      stage: ["st1"]
-    }
-  },
-  {
-    name: "Aki Minoriko",
-    img: "bV0DaN7.png",
-    opts: {
-      series: ["MoF", "DS", "HM"],
-      stage: ["st1"]
-    }
-  },
-  {
-    name: "Kagiyama Hina",
-    img: "J11NjNj.png",
-    opts: {
-      series: ["MoF", "DS", "HM"],
-      stage: ["st2"]
-    }
-  },
-  {
-    name: "Kawashiro Nitori",
-    img: "4Ufced2.png",
-    opts: {
-      series: ["MoF", "DS", "HM", "ISC", "ULiL", "AoCF"],
-      stage: ["st3"]
-    }
-  },
-  {
-    name: "Inubashiri Momiji",
-    img: "qGMjnYk.png",
-    opts: {
-      series: ["MoF", "DS", "ISC"],
-      stage: ["st4"]
-    }
-  },
-  {
-    name: "Kochiya Sanae",
-    img: "ATTRSWU.png",
-    opts: {
-      series: ["MoF", "SA", "UFO", "soku", "DS", "TD", "HM", "ISC", "LoLK", "UM"],
-      stage: ["st5", "ex"]
-    }
-  },
-  {
-    name: "Yasaka Kanako",
-    img: "nQ78Lz7.png",
-    opts: {
-      series: ["MoF", "soku", "DS", "HM", "ISC", "VD"],
-      stage: ["st6", "ex"]
-    }
-  },
-  {
-    name: "Moriya Suwako",
-    img: "yJaD5ZV.png",
-    opts: {
-      series: ["MoF", "SA", "soku", "DS", "HM", "ISC", "VD"],
-      stage: ["ex"]
-    }
-  },
-  {
-    name: "Nagae Iku",
-    img: "xgAlECj.png",
-    opts: {
-      series: ["SWR", "soku", "DS", "HM", "VD"],
-      stage: ["st5"]
-    }
-  },
-  {
-    name: "Hinanawi Tenshi",
-    img: "tZLYivt.png",
-    opts: {
-      series: ["SWR", "soku", "DS", "HM", "ISC", "AoCF", "VD"],
-      stage: ["st6"]
-    }
-  },
-  {
-    name: "Kisume",
-    img: "VgJgaEf.png",
-    opts: {
-      series: ["SA", "DS"],
-      stage: ["st1"]
-    }
-  },
-  {
-    name: "Kurodani Yamame",
-    img: "sqgJ2St.png",
-    opts: {
-      series: ["SA", "DS", "HM"],
-      stage: ["st1"]
-    }
-  },
-  {
-    name: "Mizuhashi Parsee",
-    img: "lkoAJod.png",
-    opts: {
-      series: ["SA", "DS", "HM"],
-      stage: ["st2"]
-    }
-  },
-  {
-    name: "Hoshiguma Yuugi",
-    img: "tDO653L.png",
-    opts: {
-      series: ["SA", "DS", "HM"],
-      stage: ["st3"]
-    }
-  },
-  {
-    name: "Komeiji Satori",
-    img: "dup7Nt6.png",
-    opts: {
-      series: ["SA", "DS", "HM", "VD"],
-      stage: ["st4"]
-    }
-  },
-  {
-    name: "Kaenbyou Rin (Orin)",
-    img: "uQjbw1W.png",
-    opts: {
-      series: ["SA", "DS", "HM"],
-      stage: ["st4", "st5", "st6"]
-    }
-  },
-  {
-    name: "Reiuji Utsuho (Okuu)",
-    img: "DfdaXPW.png",
-    opts: {
-      series: ["SA", "soku", "DS", "HM", "VD"],
-      stage: ["st6"]
-    }
-  },
-  {
-    name: "Komeiji Koishi",
-    img: "wVCcens.png",
-    opts: {
-      series: ["SA", "DS", "HM", "ULiL", "AoCF", "VD"],
-      stage: ["ex"]
+      race: ["human"],
+      star: ["5"],
+      ele: ["wind"],
+      class: ["sh"],
+      gender: ["m"]
     }
   },
   {
