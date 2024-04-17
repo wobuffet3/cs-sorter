@@ -20,15 +20,15 @@ dataSet[dataSetVersion].options = [
   },
   {
     name: "Filter by Starting Rarity",
-    key: "rarity",
+    key: "star",
     tooltip: "Check this to restrict to characters of certain base star levels.",
     checked: false,
     sub: [ { name: "1★", key: "1" }, { name: "2★", key: "2" }, { name: "3★", key: "3" }, { name: "4★", key: "4" }, { name: "5★", key: "5" }, { name: "6★", key: "6" }
     ]
   },
   {
-    name: "Filter by Element",
-    key: "element",
+    name: "Filter by Attribute",
+    key: "ele",
     tooltip: "Check this to restrict to certain elements.",
     checked: false,
     sub: [
@@ -37,7 +37,7 @@ dataSet[dataSetVersion].options = [
       { name: "Wind", key: "wind" },
       { name: "Earth", key: "earth" },
       { name: "Dark", key: "dark" },
-      { name: "Light", key: "lig" },
+      { name: "Light", key: "light" },
       { name: "Origin", key: "org" },
     ]
   },
@@ -59,6 +59,16 @@ dataSet[dataSetVersion].options = [
     ]
   },
   {
+    name: "Filter by Gender",
+    key: "gender",
+    tooltip: "Check this to restrict to men or women.",
+    checked: false,
+    sub: [
+      { name: "Male", key: "m" },
+      { name: "Female", key: "f" },
+    ]
+  },
+  {
     name: "Enable Alt Forms",
     key: "alt",
     tooltip: "Check this to show characters with alternate forms, such as Psychopomp Sophia or Moon Bunny Mimi."
@@ -67,11 +77,14 @@ dataSet[dataSetVersion].options = [
 
 dataSet[dataSetVersion].characterData = [
   {
-    name: "Hakurei Reimu",
-    img: "c5DqpgX.png",
+    name: "Abel",
+    img: "abel.png",
     opts: {
-      series: [ "book", "EoSD", "PCB", "IaMP", "IN", "PoFV", "StB", "SWR", "MoF", "SA", "UFO", "soku", "DS", "TD", "HM", "DDC", "ISC", "ULiL", "LoLK", "AoCF", "HSiFS", "VD", "WBaWC", "UM" ],
-      stage: ["st4"]
+      race: [ "human" ],
+      star: ["1"],
+      ele: ["light"],
+      class: ["tank"],
+      gender: ["m"]
     }
   },
   {
