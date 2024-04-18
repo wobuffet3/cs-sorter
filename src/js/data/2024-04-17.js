@@ -71,7 +71,7 @@ dataSet[dataSetVersion].options = [
   {
     name: "Disable Alt Forms",
     key: "alt",
-    tooltip: "Uncheck this to show characters with alternate forms, such as Psychopomp Sophia or Moon Bunny Mimi.",
+    tooltip: "Uncheck this to stop showing characters with alternate forms, such as Psychopomp Sophia or Moon Bunny Mimi.",
     checked: false
   }
 ];
