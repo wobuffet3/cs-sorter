@@ -2025,7 +2025,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kwaralu",
-    img: "Kwaralu.png",
+    img: "kwaralu.png",
     opts: {
       race: ["ork"],
       star: ["3"],
