@@ -51,7 +51,7 @@ dataSet[dataSetVersion].options = [
       { name: "Attacker", key: "dps" },
       { name: "Magic Knight", key: "mk" },
       { name: "Shooter", key: "sh" },
-      { name: "Magician", key: "mag" },
+      { name: "Magician", key: "mage" },
       { name: "Healer", key: "heal" },
       { name: "Buffer", key: "buff" },
       { name: "Debuffer", key: "deb" },
@@ -1372,281 +1372,393 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Watatsuki no Toyohime",
-    img: "uEBxsEX.png",
+    name: "Bajie",
+    img: "bajie.png",
     opts: {
-      series: ["book"],
-      stage: []
+      race: ["dwarf"],
+      star: ["4"],
+      ele: ["earth"],
+      class: ["dps"],
+      gender: ["m"]
     }
   },
   {
-    name: "Watatsuki no Yorihime",
-    img: "Txu2P7S.png",
+    name: "Borodin",
+    img: "borodin.png",
     opts: {
-      series: ["book"],
-      stage: []
+      race: ["dwarf"],
+      star: ["5"],
+      ele: ["light"],
+      class: ["sh"],
+      gender: ["m"]
     }
   },
   {
-    name: "Maribel Hearn",
-    img: "XUI9vPo.png",
+    name: "Bustral",
+    img: "bustral.png",
     opts: {
-      series: ["book"],
-      stage: []
+      race: ["dwarf"],
+      star: ["3"],
+      ele: ["dark"],
+      class: ["sh"],
+      gender: ["m"]
     }
   },
   {
-    name: "Usami Renko",
-    img: "1P5EXRt.png",
+    name: "Canal",
+    img: "canal.png",
     opts: {
-      series: ["book"],
-      stage: []
+      race: ["dwarf"],
+      star: ["1"],
+      ele: ["water"],
+      class: ["heal"],
+      gender: ["f"]
     }
   },
   {
-    name: "Ibaraki Kasen",
-    img: "dQHnPPe.png",
+    name: "Beargirl Canal",
+    img: "canalAlt.png",
     opts: {
-      series: ["book", "ULiL", "AoCF"],
-      stage: ["st5"]
+      race: ["dwarf"],
+      star: ["5"],
+      ele: ["water"],
+      class: ["tank"],
+      gender: ["f"],
+      alt: true
     }
   },
   {
-    name: "Motoori Kosuzu",
-    img: "jEsJJo8.png",
+    name: "Clevis",
+    img: "clevis.png",
     opts: {
-      series: ["book"],
-      stage: []
+      race: ["dwarf"],
+      star: ["3"],
+      ele: ["wind"],
+      class: ["tri"],
+      gender: ["m"]
     }
   },
   {
-    name: "Okunoda Miyoi",
-    img: "a5V63gx.png",
+    name: "Eduardo",
+    img: "eduardo.png",
     opts: {
-      series: ["book"],
-      stage: []
+      race: ["dwarf"],
+      star: ["3"],
+      ele: ["org"],
+      class: ["tri"],
+      gender: ["m"]
     }
   },
   {
-    name: "Hakurei Reimu (PC-98)",
-    img: "IZsGAMS.png",
+    name: "Garad",
+    img: "garad.png",
     opts: {
-      series: ["HRtP", "SoEW", "PoDD", "LLS", "MS"],
-      stage: ["st4"],
-      pc98: true
+      race: ["dwarf"],
+      star: ["5"],
+      ele: ["wind"],
+      class: ["tri"],
+      gender: ["m"]
     }
   },
   {
-    name: "Shingyoku (Female)",
-    img: "KuPiR2k.png",
+    name: "Shadow Garad",
+    img: "garadAlt.png",
     opts: {
-      series: ["HRtP"],
-      stage: ["st1"]
+      race: ["dwarf"],
+      star: ["5"],
+      ele: ["earth"],
+      class: ["tri"],
+      gender: ["m"],
+      alt: true
     }
   },
   {
-    name: "Mima",
-    img: "odH03t2.png",
+    name: "Gil",
+    img: "gil.png",
     opts: {
-      series: ["HRtP", "SoEW", "PoDD", "MS"],
-      stage: ["st3", "st5", "st6"]
+      race: ["dwarf"],
+      star: ["4"],
+      ele: ["earth"],
+      class: ["mage"],
+      gender: ["m"]
     }
   },
   {
-    name: "Elis",
-    img: "ytnL1xd.png",
+    name: "Helmondus",
+    img: "helmondus.png",
     opts: {
-      series: ["HRtP"],
-      stage: ["st5"]
+      race: ["dwarf"],
+      star: ["5"],
+      ele: ["earth"],
+      class: ["tri"],
+      gender: ["m"]
     }
   },
   {
-    name: "Kikuri",
-    img: "fX2Kqik.png",
+    name: "Irene",
+    img: "irene.png",
     opts: {
-      series: ["HRtP"],
-      stage: ["st5"]
+      race: ["dwarf"],
+      star: ["2"],
+      ele: ["wind"],
+      class: ["sh"],
+      gender: ["f"]
     }
   },
   {
-    name: "Sariel",
-    img: "Wyc7YFw.png",
+    name: "Isaiah",
+    img: "isaiah.png",
     opts: {
-      series: ["HRtP"],
-      stage: ["st6"]
+      race: ["dwarf"],
+      star: ["4"],
+      ele: ["earth"],
+      class: ["heal"],
+      gender: ["f"]
     }
   },
   {
-    name: "Konngara",
-    img: "dg9jLHv.png",
+    name: "Jarilo",
+    img: "jarilo.png",
     opts: {
-      series: ["HRtP"],
-      stage: ["st6"]
+      race: ["dwarf"],
+      star: ["1"],
+      ele: ["light"],
+      class: ["mage"],
+      gender: ["f"]
     }
   },
   {
-    name: "Rika",
-    img: "02Xb4pU.png",
+    name: "Karin",
+    img: "karin.png",
     opts: {
-      series: ["SoEW"],
-      stage: ["st1", "ex"]
+      race: ["dwarf"],
+      star: ["4"],
+      ele: ["fire"],
+      class: ["tank"],
+      gender: ["f"]
     }
   },
   {
-    name: "Meira",
-    img: "p529JgT.png",
+    name: "Karl Dane",
+    img: "karl.png",
     opts: {
-      series: ["SoEW"],
-      stage: ["st2"]
+      race: ["dwarf"],
+      star: ["1"],
+      ele: ["earth"],
+      class: ["dps"],
+      gender: ["m"]
     }
   },
   {
-    name: "Kirisame Marisa (PC-98)",
-    img: "wxE7cBm.png",
+    name: "Kiehl Dane",
+    img: "kiehl.png",
     opts: {
-      series: ["SoEW", "PoDD", "LLS", "MS"],
-      stage: ["st4"],
-      pc98: true
+      race: ["dwarf"],
+      star: ["4"],
+      ele: ["fire"],
+      class: ["tank"],
+      gender: ["m"]
     }
   },
-  { name: "Ellen", img: "3iNNL0c.png", opts: {
-      series: ["PoDD"],
-      stage: []
-    } },
-  {
-    name: "Kotohime",
-    img: "kRSGtpq.png",
+  { 
+    name: "Luca",
+    img: "luca.png",
     opts: {
-      series: ["PoDD"],
-      stage: []
-    }
+      race: ["dwarf"],
+      star: ["1"],
+      ele: ["earth"],
+      class: ["sh"],
+      gender: ["m"]
+    } 
   },
   {
-    name: "Kana Anaberal",
-    img: "rBvKMk5.png",
+    name: "Lucky",
+    img: "lucky.png",
     opts: {
-      series: ["PoDD"],
-      stage: []
-    }
-  },
-  {
-    name: "Asakura Rikako",
-    img: "VIf5gUK.png",
-    opts: {
-      series: ["PoDD"],
-      stage: []
+      race: ["dwarf"],
+      star: ["5"],
+      ele: ["fire"],
+      class: ["sh"],
+      gender: ["m"]
     }
   },
   {
-    name: "Kitashirakawa Chiyuri",
-    img: "tZFBycy.png",
+    name: "Lulu",
+    img: "lulu.png",
     opts: {
-      series: ["PoDD"],
-      stage: ["st5"]
+      race: ["dwarf"],
+      star: ["1"],
+      ele: ["earth"],
+      class: ["sh"],
+      gender: ["f"]
     }
   },
   {
-    name: "Okazaki Yumemi",
-    img: "c9rnG3n.png",
+    name: "Melhiol",
+    img: "melhiol.png",
     opts: {
-      series: ["PoDD"],
-      stage: ["st6"]
+      race: ["dwarf"],
+      star: ["2"],
+      ele: ["fire"],
+      class: ["deb"],
+      gender: ["m"]
     }
   },
   {
-    name: "Ruukoto",
-    img: "dko67SJ.png",
+    name: "Milcosta",
+    img: "milcosta.png",
     opts: {
-      series: ["PoDD"],
-      stage: []
+      race: ["dwarf"],
+      star: ["4"],
+      ele: ["dark"],
+      class: ["dps"],
+      gender: ["m"]
     }
   },
   {
-    name: "Orange",
-    img: "m8wXE5U.png",
+    name: "Myla",
+    img: "myla.png",
     opts: {
-      series: ["LLS"],
-      stage: ["st1"]
+      race: ["dwarf"],
+      star: ["3"],
+      ele: ["dark"],
+      class: ["buff"],
+      gender: ["f"]
     }
   },
   {
-    name: "Kurumi",
-    img: "0rvq1ph.png",
+    name: "Olga",
+    img: "olga.png",
     opts: {
-      series: ["LLS"],
-      stage: ["st2"]
+      race: ["dwarf"],
+      star: ["5"],
+      ele: ["fire"],
+      class: ["tri"],
+      gender: ["f"]
     }
   },
   {
-    name: "Elly",
-    img: "iIPftHn.png",
+    name: "Palyan",
+    img: "palyan.png",
     opts: {
-      series: ["LLS"],
-      stage: ["st3"]
+      race: ["dwarf"],
+      star: ["2"],
+      ele: ["earth"],
+      class: ["heal"],
+      gender: ["m"]
     }
   },
   {
-    name: "Yuuka (PC-98)",
-    img: "ivUSwxp.png",
+    name: "Polmul",
+    img: "polmul.png",
     opts: {
-      series: ["LLS", "MS"],
-      stage: ["st5", "st6"],
-      pc98: true
+      race: ["dwarf"],
+      star: ["5"],
+      ele: ["earth"],
+      class: ["tri"],
+      gender: ["m"]
     }
   },
   {
-    name: "Mugetsu",
-    img: "bYA9E16.png",
+    name: "Skourad",
+    img: "skourad.png",
     opts: {
-      series: ["LLS"],
-      stage: ["ex"]
+      race: ["dwarf"],
+      star: ["4"],
+      ele: ["fire"],
+      class: ["buff"],
+      gender: ["m"]
     }
   },
   {
-    name: "Gengetsu",
-    img: "TIOTtV9.png",
+    name: "Smiroff",
+    img: "smiroff.png",
     opts: {
-      series: ["LLS"],
-      stage: ["ex"]
+      race: ["dwarf"],
+      star: ["3"],
+      ele: ["water"],
+      class: ["tank"],
+      gender: ["m"]
     }
   },
   {
-    name: "Sara",
-    img: "2QUbCrU.png",
+    name: "Snegurochka",
+    img: "snegurochka.png",
     opts: {
-      series: ["MS"],
-      stage: ["st1"]
+      race: ["dwarf"],
+      star: ["2"],
+      ele: ["water"],
+      class: ["tri"],
+      gender: ["f"]
     }
   },
   {
-    name: "Louise",
-    img: "nDM5aB6.png",
+    name: "Spring Snow Snegurochka",
+    img: "snegurochkaAlt.png",
     opts: {
-      series: ["MS"],
-      stage: ["st2", "st4"]
+      race: ["dwarf"],
+      star: ["5"],
+      ele: ["light"],
+      class: ["buff"],
+      gender: ["f"],
+      alt: true
     }
   },
   {
-    name: "Alice (PC-98)",
-    img: "KaBuRTW.png",
+    name: "Tachenka",
+    img: "tachenka.png",
     opts: {
-      series: ["MS"],
-      stage: ["st3", "ex"],
-      pc98: true
+      race: ["dwarf"],
+      star: ["5"],
+      ele: ["dark"],
+      class: ["dps"],
+      gender: ["f"]
     }
   },
   {
-    name: "Yuki",
-    img: "FfcmDgp.png",
+    name: "Tatara",
+    img: "tatara.png",
     opts: {
-      series: ["MS"],
-      stage: ["st4"]
+      race: ["dwarf"],
+      star: ["5"],
+      ele: ["earth"],
+      class: ["dps"],
+      gender: ["m"]
     }
   },
-  { name: "Mai", img: "r6w7TX1.png", opts: {
-      series: ["MS"],
-      stage: ["st4"]
-    } },
+  {
+    name: "Theo",
+    img: "theo.png",
+    opts: {
+      race: ["dwarf"],
+      star: ["3"],
+      ele: ["fire"],
+      class: ["tank"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "Tiger King",
+    img: "tigerking.png",
+    opts: {
+      race: ["dwarf"],
+      star: ["5"],
+      ele: ["earth"],
+      class: ["tank"],
+      gender: ["m"]
+    }
+  },
+  { 
+    name: "Trophim",
+    img: "trophim.png",
+    opts: {
+      race: ["dwarf"],
+      star: ["4"],
+      ele: ["dark"],
+      class: ["tri"],
+      gender: ["m"]
+    } 
+  },
   {
     name: "Yumeko",
     img: "PcPqkdO.png",
