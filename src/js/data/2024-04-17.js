@@ -69,9 +69,9 @@ dataSet[dataSetVersion].options = [
     ]
   },
   {
-    name: "Enable Alt Forms",
+    name: "Disable Alt Forms",
     key: "alt",
-    tooltip: "Check this to show characters with alternate forms, such as Psychopomp Sophia or Moon Bunny Mimi."
+    tooltip: "Uncheck this to show characters with alternate forms, such as Psychopomp Sophia or Moon Bunny Mimi."
   }
 ];
 
@@ -793,7 +793,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Vongyra",
-    img: "vongyra",
+    img: "vongyra.png",
     opts: {
       race: ["human"],
       star: ["4"],
@@ -821,7 +821,8 @@ dataSet[dataSetVersion].characterData = [
       star: ["6"],
       ele: ["dark"],
       class: ["mk"],
-      gender: ["m"]
+      gender: ["m"],
+      alt: true
     }
   },
   {
