@@ -1760,19 +1760,25 @@ dataSet[dataSetVersion].characterData = [
     } 
   },
   {
-    name: "Yumeko",
-    img: "PcPqkdO.png",
+    name: "Alban",
+    img: "alban.png",
     opts: {
-      series: ["MS"],
-      stage: ["st5"]
+      race: ["ork"],
+      star: ["5"],
+      ele: ["earth"],
+      class: ["dps"],
+      gender: ["m"]
     }
   },
   {
-    name: "Shinki",
-    img: "gPE95S7.png",
+    name: "Amritah",
+    img: "amritah.png",
     opts: {
-      series: ["MS"],
-      stage: ["st6"]
+      race: ["ork"],
+      star: ["5"],
+      ele: ["earth"],
+      class: ["dps"],
+      gender: ["f"]
     }
   },
   {
