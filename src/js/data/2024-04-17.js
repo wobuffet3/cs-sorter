@@ -183,8 +183,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       race: ["human"],
       star: ["1"],
-      ele: ["org"],
-      class: ["dps"],
+      ele: [""],
+      class: [""],
       gender: ["m"]
     }
   },
@@ -373,8 +373,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       race: ["human"],
       star: ["1"],
-      ele: ["origin"],
-      class: ["dps"],
+      ele: [],
+      class: [],
       gender: ["f"]
     }
   },
