@@ -1361,11 +1361,14 @@ dataSet[dataSetVersion].characterData = [
     } 
   },
   {
-    name: "Reisen (Manga)",
-    img: "cWjCo2j.png",
+    name: "Polka",
+    img: "polka.png",
     opts: {
-      series: ["book"],
-      stage: []
+      race: [],
+      star: [],
+      ele: [],
+      class: [],
+      gender: ["m"]
     }
   },
   {
