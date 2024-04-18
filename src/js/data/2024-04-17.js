@@ -1782,95 +1782,1169 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Mimi-chan",
-    img: "zBl2zlv.png",
+    name: "Angheera",
+    img: "angheera.png",
     opts: {
-      series: ["PoDD"],
-      stage: [],
-      notgirl: true 
+      race: ["ork"],
+      star: ["1"],
+      ele: ["earth"],
+      class: ["tank"],
+      gender: ["m"]
     }
   },
   {
-    name: "Unzan",
-    img: "r5eWREh.png",
+    name: "Baaz",
+    img: "baaz.png",
     opts: {
-      series: ["UFO", "DS", "HM", "ULiL", "AoCF"],
-      stage: ["st3"],
-      notgirl: true
+      race: ["ork"],
+      star: ["3"],
+      ele: ["wind"],
+      class: ["dps"],
+      gender: ["m"]
     }
   },
   {
-    name: "Genji",
-    img: "LoUqOuH.png",
+    name: "Baronga",
+    img: "baronga.png",
     opts: {
-      series: ["SoEW", "PoDD", "LLS", "MS"],
-      stage: [],
-      notgirl: true 
+      race: ["ork"],
+      star: ["5"],
+      ele: ["dark"],
+      class: ["deb"],
+      gender: ["m"]
     }
   },
   {
-    name: "Shingyoku (Male)",
-    img: "a5uwlgN.png",
+    name: "Bhairava",
+    img: "bhairava.png",
     opts: {
-      series: ["HRtP"],
-      stage: ["st1"],
-      notgirl: true 
+      race: ["ork"],
+      star: ["5"],
+      ele: ["fire"],
+      class: ["tri"],
+      gender: ["m"]
     }
   },
   {
-    name: "YuugenMagan",
-    img: "IOW8GdU.png",
+    name: "Bogguz",
+    img: "bogguz.png",
     opts: {
-      series: ["HRtP"],
-      stage: ["st3"],
-      notgirl: true 
+      race: ["ork"],
+      star: ["1"],
+      ele: ["fire"],
+      class: ["tank"],
+      gender: ["m"]
     }
   },
   {
-    name: "Evil Eye Sigma",
-    img: "rAFUMwE.png",
+    name: "Dilla",
+    img: "dilla.png",
     opts: {
-      series: ["SoEW"],
-      stage: ["ex"],
-      notgirl: true 
+      race: ["ork"],
+      star: ["2"],
+      ele: ["dark"],
+      class: ["deb"],
+      gender: ["m"]
     }
   },
   {
-    name: "Great Catfish",
-    img: "BgRi9Oh.png",
+    name: "Dracoute",
+    img: "dracoute.png",
     opts: {
-      series: ["soku", "AoCF"],
-      stage: ["st6"],
-      notgirl: true,
-      nameless: true
+      race: ["ork"],
+      star: ["5"],
+      ele: ["earth"],
+      class: ["sh"],
+      gender: ["m"]
     }
   },
   {
-    name: "Morichika Rinnosuke",
-    img: "ITUhsGj.png",
+    name: "Drehd",
+    img: "drehd.png",
     opts: {
-      series: ["book", "HM"],
-      stage: [],
-      notgirl: true 
+      race: ["ork"],
+      star: ["5"],
+      ele: ["light"],
+      class: ["dps"],
+      gender: ["m"]
     }
   },
   {
-    name: "Fortune Teller",
-    img: "BYot23O.png",
+    name: "Eruvii",
+    img: "eruvii.png",
     opts: {
-      series: ["book"],
-      stage: [],
-      notgirl: true,
-      nameless: true
+      race: ["ork"],
+      star: ["4"],
+      ele: ["wind"],
+      class: ["dps"],
+      gender: ["f"]
     }
   },
   {
-    name: "Hisoutensoku",
-    img: "P4JZ2it.png",
+    name: "Futaba",
+    img: "futaba.png",
     opts: {
-      series: ["soku"],
-      stage: [],
-      notgirl: true 
+      race: ["ork"],
+      star: ["5"],
+      ele: ["earth"],
+      class: ["mk"],
+      gender: ["f"]
+    }
+  },
+  {
+    name: "Gada",
+    img: "gada.png",
+    opts: {
+      race: ["ork"],
+      star: ["4"],
+      ele: ["fire"],
+      class: ["sh"],
+      gender: ["f"]
+    }
+  },
+  {
+    name: "Gaezhar",
+    img: "gaezhar.png",
+    opts: {
+      race: ["ork"],
+      star: ["3"],
+      ele: ["fire"],
+      class: ["dps"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "Gaines",
+    img: "gaines.png",
+    opts: {
+      race: ["ork"],
+      star: ["4"],
+      ele: ["earth"],
+      class: ["deb"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "Galga",
+    img: "galga.png",
+    opts: {
+      race: ["ork"],
+      star: ["3"],
+      ele: ["dark"],
+      class: ["deb"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "Gamuhl",
+    img: "gamuhl.png",
+    opts: {
+      race: ["ork"],
+      star: ["1"],
+      ele: ["water"],
+      class: ["tank"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "Gamuhla",
+    img: "gamuhla.png",
+    opts: {
+      race: ["ork"],
+      star: ["1"],
+      ele: ["water"],
+      class: ["tank"],
+      gender: ["f"]
+    }
+  },
+  {
+    name: "Gando",
+    img: "gando.png",
+    opts: {
+      race: ["ork"],
+      star: ["3"],
+      ele: ["fire"],
+      class: ["heal"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "Ghizarru",
+    img: "ghizarru.png",
+    opts: {
+      race: ["ork"],
+      star: ["4"],
+      ele: ["water"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "Ghuldoh",
+    img: "ghuldoh.png",
+    opts: {
+      race: ["ork"],
+      star: ["4"],
+      ele: ["wind"],
+      class: ["tank"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "Jhala",
+    img: "jhala.png",
+    opts: {
+      race: ["ork"],
+      star: ["1"],
+      ele: ["wind"],
+      class: ["buff"],
+      gender: ["f"]
+    }
+  },
+  {
+    name: "Kaida",
+    img: "kaida.png",
+    opts: {
+      race: ["ork"],
+      star: ["5"],
+      ele: ["dark"],
+      class: ["dps"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "Kirughabaa",
+    img: "kirughabaa.png",
+    opts: {
+      race: ["ork"],
+      star: ["5"],
+      ele: ["earth"],
+      class: ["dps"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "Kwaralu",
+    img: "Kwaralu.png",
+    opts: {
+      race: ["ork"],
+      star: ["3"],
+      ele: ["water"],
+      class: ["buff"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "Lasharna",
+    img: "lasharna.png",
+    opts: {
+      race: ["ork"],
+      star: ["5"],
+      ele: ["water"],
+      class: ["mage"],
+      gender: ["f"]
+    }
+  },
+  {
+    name: "Mamba",
+    img: "mamba.png",
+    opts: {
+      race: ["ork"],
+      star: ["5"],
+      ele: ["light"],
+      class: ["sh"],
+      gender: ["f"]
+    }
+  },
+  {
+    name: "Melah",
+    img: "melah.png",
+    opts: {
+      race: ["ork"],
+      star: ["1"],
+      ele: ["fire"],
+      class: ["mage"],
+      gender: ["f"]
+    }
+  },
+  {
+    name: "Moga",
+    img: "moga.png",
+    opts: {
+      race: ["ork"],
+      star: ["2"],
+      ele: ["water"],
+      class: ["heal"],
+      gender: ["f"]
+    }
+  },
+  {
+    name: "Novaar",
+    img: "novaar.png",
+    opts: {
+      race: ["ork"],
+      star: ["3"],
+      ele: ["dark"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "Virginia",
+    img: "virginia.png",
+    opts: {
+      race: ["ork"],
+      star: ["5"],
+      ele: ["earth"],
+      class: ["dps"],
+      gender: ["f"]
+    }
+  },
+  {
+    name: "Zaktl",
+    img: "zaktl.png",
+    opts: {
+      race: ["ork"],
+      star: ["2"],
+      ele: ["earth"],
+      class: ["tri"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "Zhorbaa",
+    img: "zhorbaa.png",
+    opts: {
+      race: ["ork"],
+      star: ["5"],
+      ele: ["fire"],
+      class: ["dps"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "Zonelli",
+    img: "zoneli.png",
+    opts: {
+      race: ["ork"],
+      star: ["4"],
+      ele: ["dark"],
+      class: ["tri"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "Abefero",
+    img: "abefero.png",
+    opts: {
+      race: ["liz"],
+      star: ["2"],
+      ele: ["light"],
+      class: ["deb"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "Aliaro",
+    img: "aliaro.png",
+    opts: {
+      race: ["liz"],
+      star: ["3"],
+      ele: ["earth"],
+      class: ["deb"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "aa",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "FINAL DO NOT OVERWRITE",
+    img: "aa.png",
+    opts: {
+      race: ["aaa"],
+      star: ["5"],
+      ele: ["ear"],
+      class: ["mk"],
+      gender: ["m"]
     }
   }
 ];
