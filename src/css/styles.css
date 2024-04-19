@@ -112,7 +112,7 @@ body {
 
 .sorter > .image {
   width: 120px;
-  height: 120px;
+  height: 180px;
   margin: auto;
   grid-row: 1 / 7;
   cursor: pointer;
@@ -135,6 +135,7 @@ body {
 .sorter > .left {
   grid-column: 1 / 2;
   border: 1px solid #000000;
+  background-color: #EFE9D9;
 }
 
 .sorter > .right {
