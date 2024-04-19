@@ -61,11 +61,13 @@ body {
 
 .starting.start.button {
   grid-row: span 6;
+    background-color: #EFE9D9;
 }
 
 .starting.load.button {
   grid-row: span 3;
   display: none;
+    background-color: #EFE9D9;
 }
 
 .sorting.button, .finished.button {
@@ -116,7 +118,7 @@ body {
 }
 
 .sorter > .image {
-  width: 120px;
+  width: 180px;
   height: 180px;
   margin: auto;
   grid-row: 1 / 7;
