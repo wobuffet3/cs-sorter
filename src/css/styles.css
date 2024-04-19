@@ -44,9 +44,9 @@ body {
 }
 
 .sorter {
-  margin: 100px auto;
+  margin: 0px auto;
   display: grid;
-  grid-template-columns: 120px 1fr 120px;
+  grid-template-columns: 33% 33% 33%;
   grid-gap: 5px;
   width: 420px;
 }
