@@ -57,6 +57,7 @@ body {
   padding: 10%;
   grid-column: 2 / 3;
   cursor: pointer;
+    background-color: #EFE9D9;
 }
 
 .starting.start.button {
@@ -118,7 +119,7 @@ body {
 }
 
 .sorter > .image {
-  width: 180px;
+  width: 120px;
   height: 180px;
   margin: auto;
   grid-row: 1 / 7;
