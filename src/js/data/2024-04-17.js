@@ -2212,7 +2212,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Emetro",
-    img: "Emetro.png",
+    img: "emetro.png",
     opts: {
       race: ["liz"],
       star: ["1"],
