@@ -2757,7 +2757,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Zirnitra",
-    img: "zirnita.png",
+    img: "zirnitra.png",
     opts: {
       race: ["anc"],
       star: ["6"],
