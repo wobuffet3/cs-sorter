@@ -147,7 +147,7 @@ body {
 }
 
 .sorter > .right {
-  grid-column: 3 / 4;
+  grid-column: 5 / 6;
   border: 1px solid #000000;
   background-color: #EFE9D9;
 }
