@@ -2700,256 +2700,125 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "aa",
-    img: "aa.png",
+    name: "Amabie",
+    img: "amabie.png",
     opts: {
-      race: ["aaa"],
+      race: ["anc"],
       star: ["5"],
-      ele: ["ear"],
+      ele: ["water"],
+      class: ["heal"],
+      gender: ["f"]
+    }
+  },
+  {
+    name: "Pilatus Amabie",
+    img: "amabieAlt.png",
+    opts: {
+      race: ["anc"],
+      star: ["5"],
+      ele: ["water"],
       class: ["mk"],
+      gender: ["f"],
+      alt: true
+    }
+  },
+  {
+    name: "Fafnir",
+    img: "fafnir.png",
+    opts: {
+      race: ["anc"],
+      star: ["5"],
+      ele: ["wind"],
+      class: ["deb"],
+      gender: ["f"]
+    }
+  },
+  {
+    name: "Shukk",
+    img: "shukk.png",
+    opts: {
+      race: ["anc"],
+      star: ["5"],
+      ele: ["earth"],
+      class: ["sh"],
       gender: ["m"]
     }
   },
   {
-    name: "aa",
-    img: "aa.png",
+    name: "Siobhan",
+    img: "siobahn.png",
     opts: {
-      race: ["aaa"],
+      race: ["anc"],
       star: ["5"],
-      ele: ["ear"],
+      ele: ["light"],
       class: ["mk"],
+      gender: ["f"]
+    }
+  },
+  {
+    name: "Zirnitra",
+    img: "zirnita.png",
+    opts: {
+      race: ["anc"],
+      star: ["6"],
+      ele: ["dark"],
+      class: ["dps"],
       gender: ["m"]
     }
   },
   {
-    name: "aa",
-    img: "aa.png",
+    name: "Callie",
+    img: "callie.png",
     opts: {
-      race: ["aaa"],
+      race: ["jip"],
       star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
+      ele: ["water"],
+      class: ["mage"],
+      gender: ["f"]
+    }
+  },
+  {
+    name: "Kogabo",
+    img: "kogabo.png",
+    opts: {
+      race: ["jip"],
+      star: ["5"],
+      ele: ["wind"],
+      class: ["tri"],
       gender: ["m"]
     }
   },
   {
-    name: "aa",
-    img: "aa.png",
+    name: "Mozuku",
+    img: "mozuku.png",
     opts: {
-      race: ["aaa"],
+      race: ["jip"],
       star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
+      ele: ["dark"],
+      class: ["deb"],
+      gender: ["f"]
+    }
+  },
+  {
+    name: "Tadamatsu",
+    img: "tada.png",
+    opts: {
+      race: ["jip"],
+      star: ["5"],
+      ele: ["earth"],
+      class: ["tank"],
       gender: ["m"]
     }
   },
   {
-    name: "aa",
-    img: "aa.png",
+    name: "Usugumo",
+    img: "usugumo.png",
     opts: {
-      race: ["aaa"],
+      race: ["jip"],
       star: ["5"],
-      ele: ["ear"],
+      ele: ["light"],
       class: ["mk"],
-      gender: ["m"]
-    }
-  },
-  {
-    name: "aa",
-    img: "aa.png",
-    opts: {
-      race: ["aaa"],
-      star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
-      gender: ["m"]
-    }
-  },
-  {
-    name: "aa",
-    img: "aa.png",
-    opts: {
-      race: ["aaa"],
-      star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
-      gender: ["m"]
-    }
-  },
-  {
-    name: "aa",
-    img: "aa.png",
-    opts: {
-      race: ["aaa"],
-      star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
-      gender: ["m"]
-    }
-  },
-  {
-    name: "aa",
-    img: "aa.png",
-    opts: {
-      race: ["aaa"],
-      star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
-      gender: ["m"]
-    }
-  },
-  {
-    name: "aa",
-    img: "aa.png",
-    opts: {
-      race: ["aaa"],
-      star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
-      gender: ["m"]
-    }
-  },
-  {
-    name: "aa",
-    img: "aa.png",
-    opts: {
-      race: ["aaa"],
-      star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
-      gender: ["m"]
-    }
-  },
-  {
-    name: "aa",
-    img: "aa.png",
-    opts: {
-      race: ["aaa"],
-      star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
-      gender: ["m"]
-    }
-  },
-  {
-    name: "aa",
-    img: "aa.png",
-    opts: {
-      race: ["aaa"],
-      star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
-      gender: ["m"]
-    }
-  },
-  {
-    name: "aa",
-    img: "aa.png",
-    opts: {
-      race: ["aaa"],
-      star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
-      gender: ["m"]
-    }
-  },
-  {
-    name: "aa",
-    img: "aa.png",
-    opts: {
-      race: ["aaa"],
-      star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
-      gender: ["m"]
-    }
-  },
-  {
-    name: "aa",
-    img: "aa.png",
-    opts: {
-      race: ["aaa"],
-      star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
-      gender: ["m"]
-    }
-  },
-  {
-    name: "aa",
-    img: "aa.png",
-    opts: {
-      race: ["aaa"],
-      star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
-      gender: ["m"]
-    }
-  },
-  {
-    name: "aa",
-    img: "aa.png",
-    opts: {
-      race: ["aaa"],
-      star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
-      gender: ["m"]
-    }
-  },
-  {
-    name: "aa",
-    img: "aa.png",
-    opts: {
-      race: ["aaa"],
-      star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
-      gender: ["m"]
-    }
-  },
-  {
-    name: "aa",
-    img: "aa.png",
-    opts: {
-      race: ["aaa"],
-      star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
-      gender: ["m"]
-    }
-  },
-  {
-    name: "aa",
-    img: "aa.png",
-    opts: {
-      race: ["aaa"],
-      star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
-      gender: ["m"]
-    }
-  },
-  {
-    name: "aa",
-    img: "aa.png",
-    opts: {
-      race: ["aaa"],
-      star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
-      gender: ["m"]
-    }
-  },
-  {
-    name: "FINAL DO NOT OVERWRITE",
-    img: "aa.png",
-    opts: {
-      race: ["aaa"],
-      star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
-      gender: ["m"]
+      gender: ["f"]
     }
   }
 ];
