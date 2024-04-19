@@ -850,7 +850,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Lord Yoldo",
-    img: "yoldo.png",
+    img: "yoldoAlt.png",
     opts: {
       race: ["human"],
       star: ["5"],
