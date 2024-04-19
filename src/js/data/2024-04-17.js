@@ -2400,299 +2400,302 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "aa",
-    img: "aa.png",
+    name: "Alotie",
+    img: "alotie.png",
     opts: {
-      race: ["aaa"],
+      race: ["gessy"],
+      star: ["1"],
+      ele: ["dark"],
+      class: ["deb"],
+      gender: ["f"]
+    }
+  },
+  {
+    name: "Deogigi",
+    img: "deogigi.png",
+    opts: {
+      race: ["gessy"],
+      star: ["2"],
+      ele: ["fire"],
+      class: ["dps"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "Gargogo",
+    img: "gargogo.png",
+    opts: {
+      race: ["gessy"],
+      star: ["4"],
+      ele: ["dark"],
+      class: ["mage"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "Undying Gargogo",
+    img: "gargogoAlt.png",
+    opts: {
+      race: ["gessy"],
       star: ["5"],
-      ele: ["ear"],
+      ele: ["dark"],
+      class: ["mk"],
+      gender: ["m"],
+      alt: true
+    }
+  },
+  {
+    name: "Jawokiki",
+    img: "jawokiki.png",
+    opts: {
+      race: ["gessy"],
+      star: ["3"],
+      ele: ["light"],
       class: ["mk"],
       gender: ["m"]
     }
   },
   {
-    name: "aa",
-    img: "aa.png",
+    name: "Jinjiao and Yinjiao",
+    img: "jinjiao&yinjiao.png",
     opts: {
-      race: ["aaa"],
+      race: ["gessy"],
       star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
+      ele: ["water"],
+      class: ["mage"],
+      gender: ["f"]
+    }
+  },
+  {
+    name: "Joynas",
+    img: "joynas.png",
+    opts: {
+      race: ["gessy"],
+      star: ["3"],
+      ele: ["earth"],
+      class: ["dps"],
       gender: ["m"]
     }
   },
   {
-    name: "aa",
-    img: "aa.png",
+    name: "Lili",
+    img: "lili.png",
     opts: {
-      race: ["aaa"],
+      race: ["gessy"],
+      star: ["4"],
+      ele: ["earth"],
+      class: ["mage"],
+      gender: ["f"]
+    }
+  },
+  {
+    name: "Aquamirror Lili",
+    img: "liliAlt.png",
+    opts: {
+      race: ["gessy"],
       star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
+      ele: ["water"],
+      class: ["tri"],
+      gender: ["f"],
+      alt: true
+    }
+  },
+  {
+    name: "Magugra",
+    img: "magugra.png",
+    opts: {
+      race: ["gessy"],
+      star: ["4"],
+      ele: ["light"],
+      class: ["buff"],
       gender: ["m"]
     }
   },
   {
-    name: "aa",
-    img: "aa.png",
+    name: "Malma",
+    img: "malma.png",
     opts: {
-      race: ["aaa"],
-      star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
+      race: ["gessy"],
+      star: ["2"],
+      ele: ["wind"],
+      class: ["buff"],
+      gender: ["f"]
+    }
+  },
+  {
+    name: "Mignono",
+    img: "mignono.png",
+    opts: {
+      race: ["gessy"],
+      star: ["1"],
+      ele: ["earth"],
+      class: ["tank"],
       gender: ["m"]
     }
   },
   {
-    name: "aa",
-    img: "aa.png",
+    name: "Myarol",
+    img: "myarol.png",
     opts: {
-      race: ["aaa"],
+      race: ["gessy"],
+      star: ["2"],
+      ele: ["light"],
+      class: ["tri"],
+      gender: ["f"]
+    }
+  },
+  {
+    name: "BFF Myarol",
+    img: "myarolAlt.png",
+    opts: {
+      race: ["gessy"],
       star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
+      ele: ["org"],
+      class: ["tri"],
+      gender: ["f"],
+      alt: true
+    }
+  },
+  {
+    name: "Nerul",
+    img: "nerul.png",
+    opts: {
+      race: ["gessy"],
+      star: ["3"],
+      ele: ["dark"],
+      class: ["tri"],
+      gender: ["f"]
+    }
+  },
+  {
+    name: "Oki and Fuka",
+    img: "oki.png",
+    opts: {
+      race: ["gessy"],
+      star: ["5"],
+      ele: ["water"],
+      class: ["dps"],
+      gender: ["f"]
+    }
+  },
+  {
+    name: "Patton",
+    img: "patton.png",
+    opts: {
+      race: ["gessy"],
+      star: ["3"],
+      ele: ["light"],
+      class: ["tri"],
       gender: ["m"]
     }
   },
   {
-    name: "aa",
-    img: "aa.png",
+    name: "Pawatoto",
+    img: "pawatoto.png",
     opts: {
-      race: ["aaa"],
-      star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
+      race: ["gessy"],
+      star: ["3"],
+      ele: ["light"],
+      class: ["deb"],
       gender: ["m"]
     }
   },
   {
-    name: "aa",
-    img: "aa.png",
+    name: "Pitsch",
+    img: "pitsch.png",
     opts: {
-      race: ["aaa"],
-      star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
+      race: ["gessy"],
+      star: ["4"],
+      ele: ["earth"],
+      class: ["buff"],
       gender: ["m"]
     }
   },
   {
-    name: "aa",
-    img: "aa.png",
+    name: "Pook",
+    img: "pook.png",
     opts: {
-      race: ["aaa"],
+      race: ["gessy"],
       star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
+      ele: ["org"],
+      class: ["buff"],
       gender: ["m"]
     }
   },
   {
-    name: "aa",
-    img: "aa.png",
+    name: "Rorotata",
+    img: "rorotata.png",
     opts: {
-      race: ["aaa"],
-      star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
+      race: ["gessy"],
+      star: ["1"],
+      ele: ["wind"],
+      class: ["heal"],
+      gender: ["f"]
+    }
+  },
+  {
+    name: "Tartarin",
+    img: "tartarin.png",
+    opts: {
+      race: ["gessy"],
+      star: ["1"],
+      ele: ["dark"],
+      class: ["deb"],
+      gender: ["f"]
+    }
+  },
+  {
+    name: "Tartaris",
+    img: "tartaris.png",
+    opts: {
+      race: ["gessy"],
+      star: ["1"],
+      ele: ["dark"],
+      class: ["deb"],
       gender: ["m"]
     }
   },
   {
-    name: "aa",
-    img: "aa.png",
+    name: "Tuffle",
+    img: "tuffle.png",
     opts: {
-      race: ["aaa"],
+      race: ["gessy"],
       star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
+      ele: ["earth"],
+      class: ["deb"],
       gender: ["m"]
     }
   },
   {
-    name: "aa",
-    img: "aa.png",
+    name: "Waugogo",
+    img: "waugogo.png",
     opts: {
-      race: ["aaa"],
-      star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
+      race: ["gessy"],
+      star: ["2"],
+      ele: ["wind"],
+      class: ["sh"],
+      gender: ["f"]
+    }
+  },
+  {
+    name: "Sun Wukong",
+    img: "wukong.png",
+    opts: {
+      race: ["gessy"],
+      star: ["3"],
+      ele: ["light"],
+      class: ["dps"],
       gender: ["m"]
     }
   },
   {
-    name: "aa",
-    img: "aa.png",
+    name: "Zonkaka",
+    img: "zonkaka.png",
     opts: {
-      race: ["aaa"],
+      race: ["gessy"],
       star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
-      gender: ["m"]
-    }
-  },
-  {
-    name: "aa",
-    img: "aa.png",
-    opts: {
-      race: ["aaa"],
-      star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
-      gender: ["m"]
-    }
-  },
-  {
-    name: "aa",
-    img: "aa.png",
-    opts: {
-      race: ["aaa"],
-      star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
-      gender: ["m"]
-    }
-  },
-  {
-    name: "aa",
-    img: "aa.png",
-    opts: {
-      race: ["aaa"],
-      star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
-      gender: ["m"]
-    }
-  },
-  {
-    name: "aa",
-    img: "aa.png",
-    opts: {
-      race: ["aaa"],
-      star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
-      gender: ["m"]
-    }
-  },
-  {
-    name: "aa",
-    img: "aa.png",
-    opts: {
-      race: ["aaa"],
-      star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
-      gender: ["m"]
-    }
-  },
-  {
-    name: "aa",
-    img: "aa.png",
-    opts: {
-      race: ["aaa"],
-      star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
-      gender: ["m"]
-    }
-  },
-  {
-    name: "aa",
-    img: "aa.png",
-    opts: {
-      race: ["aaa"],
-      star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
-      gender: ["m"]
-    }
-  },
-  {
-    name: "aa",
-    img: "aa.png",
-    opts: {
-      race: ["aaa"],
-      star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
-      gender: ["m"]
-    }
-  },
-  {
-    name: "aa",
-    img: "aa.png",
-    opts: {
-      race: ["aaa"],
-      star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
-      gender: ["m"]
-    }
-  },
-  {
-    name: "aa",
-    img: "aa.png",
-    opts: {
-      race: ["aaa"],
-      star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
-      gender: ["m"]
-    }
-  },
-  {
-    name: "aa",
-    img: "aa.png",
-    opts: {
-      race: ["aaa"],
-      star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
-      gender: ["m"]
-    }
-  },
-  {
-    name: "aa",
-    img: "aa.png",
-    opts: {
-      race: ["aaa"],
-      star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
-      gender: ["m"]
-    }
-  },
-  {
-    name: "aa",
-    img: "aa.png",
-    opts: {
-      race: ["aaa"],
-      star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
-      gender: ["m"]
-    }
-  },
-  {
-    name: "aa",
-    img: "aa.png",
-    opts: {
-      race: ["aaa"],
-      star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
-      gender: ["m"]
-    }
-  },
-  {
-    name: "aa",
-    img: "aa.png",
-    opts: {
-      race: ["aaa"],
-      star: ["5"],
-      ele: ["ear"],
-      class: ["mk"],
+      ele: ["earth"],
+      class: ["sh"],
       gender: ["m"]
     }
   },
