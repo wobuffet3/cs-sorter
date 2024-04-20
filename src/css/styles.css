@@ -13,7 +13,7 @@ body {
   flex-flow: column nowrap;
   align-items: center;
   margin-top: 1em;
-    background: #f7f7ed
+    
 }
 
 .progress {
@@ -50,6 +50,7 @@ body {
     grid-template-columns: 1fr minmax(max-content, 1fr) 1fr;
     grid-gap: 5px;
     width: fit-content;
+    background: #f7f7ed;
 }
 
 .button {
