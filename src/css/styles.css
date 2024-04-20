@@ -46,13 +46,15 @@ body {
 
 .sorter {
   margin: 0px auto;
-    display: grid;
-    grid-template-columns: 1fr minmax(max-content, 1fr) 1fr;
-    grid-gap: 5px;
-    width: fit-content;
-    background: #f7f7ed;
-    border: 2px solid black;
-    border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr minmax(max-content, 1fr) 1fr;
+  grid-gap: 5px;
+  width: fit-content;
+  padding: 10px;
+  background: #f7f7ed;
+  border: 2px solid black;
+  border-radius: 10px;
+  z-index: -2;
 }
 .sorter > .sorting.tie.button {
   background: red;
