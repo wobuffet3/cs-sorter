@@ -54,6 +54,17 @@ body {
     border: 2px solid black;
     border-radius: 10px;
 }
+.sorter > .sorting.tie.button {
+  background: red;
+}
+
+.sorter > .sorting.undo.button {
+  background: green;
+}
+
+.sorter .sorting.save.button {
+  background: blue;
+}
 
 .button {
   border: 1px solid black;
