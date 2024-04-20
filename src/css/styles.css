@@ -46,9 +46,9 @@ body {
 .sorter {
   margin: 0px auto;
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 40% 20% 40%;
   grid-gap: 1%;
-  width: 100%;
+  width: 50%;
 }
 
 .button {
