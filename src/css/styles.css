@@ -142,6 +142,8 @@ body {
   text-align: center;
   font-size: 0.8em;
   line-height: 1.5em;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 .sorter > .left {
@@ -158,10 +160,7 @@ body {
   text-align: left;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
-  width: 450px;
-    border: 2px solid black;
-    border-radius: 10px;
-    
+  width: 450px;    
 }
 
 .options > div {
