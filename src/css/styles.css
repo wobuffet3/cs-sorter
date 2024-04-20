@@ -5,7 +5,7 @@
 body {
   font-family: 'humming', Arial, Helvetica, sans-serif;
   font-size: 21px;
-  background: #F7F7ED;
+  background: #efe9d9;
 }
 
 .container {
@@ -13,6 +13,7 @@ body {
   flex-flow: column nowrap;
   align-items: center;
   margin-top: 1em;
+    background: #f7f7ed
 }
 
 .progress {
@@ -142,13 +143,10 @@ body {
 
 .sorter > .left {
   grid-column: 1 / 2;
-  
 }
 
 .sorter > .right {
   grid-column: 3 / 4;
-  border: 1px solid #000000;
-  background-color: #EFE9D9;
 }
 
 .options {
