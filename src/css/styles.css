@@ -1,7 +1,8 @@
 @font-face {
-    font-family:'humming';
-    src:url('../../Font/FOT-HummingStd-B.otf');
+  font-family: 'humming';
+  src: url('../../Font/FOT-HummingStd-B.otf');
 }
+
 body {
   font-family: 'humming', Arial, Helvetica, sans-serif;
   font-size: 21px;
@@ -13,7 +14,7 @@ body {
   flex-flow: column nowrap;
   align-items: center;
   margin-top: 1em;
-    
+
 }
 
 .progress {
@@ -74,10 +75,12 @@ body {
 .starting.load.button {
   grid-row: span 3;
   display: none;
-    background-color: #EFE9D9;
+  background-color: #EFE9D9;
 }
 
-.sorting.button, .finished.button {
+.sorting.button,
+.sorting.button.tie,
+.finished.button {
   grid-row: span 2;
   display: none;
 }
@@ -87,26 +90,29 @@ body {
   display: none;
 }
 
-.loading.button > div {
+.loading.button>div {
   width: 25px;
   height: 25px;
   margin: 50px auto;
   background-color: #333;
 
-  border-radius: 100%;  
+  border-radius: 100%;
   -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
   animation: sk-scaleout 1.0s infinite ease-in-out;
 }
 
 /* Animation taken from: http://tobiasahlin.com/spinkit/ */
 
-.loading.button > span {
+.loading.button>span {
   margin: auto auto 20%;
   font-size: 0.7em;
 }
 
 @-webkit-keyframes sk-scaleout {
-  0% { -webkit-transform: scale(0) }
+  0% {
+    -webkit-transform: scale(0)
+  }
+
   100% {
     -webkit-transform: scale(1.0);
     opacity: 0;
@@ -114,17 +120,19 @@ body {
 }
 
 @keyframes sk-scaleout {
-  0% { 
+  0% {
     -webkit-transform: scale(0);
     transform: scale(0);
-  } 100% {
+  }
+
+  100% {
     -webkit-transform: scale(1.0);
     transform: scale(1.0);
     opacity: 0;
   }
 }
 
-.sorter > .image {
+.sorter>.image {
   width: 256px;
   height: 256px;
   margin: auto;
@@ -132,13 +140,13 @@ body {
   cursor: pointer;
 }
 
-.sorter > .text {
+.sorter>.text {
   width: 256px;
   height: 60px;
   display: none;
 }
 
-.sorter > .text > p {
+.sorter>.text>p {
   margin: 0.5em 5px 0px;
   width: calc(100%-10px);
   text-align: center;
@@ -146,18 +154,28 @@ body {
   line-height: 1.5em;
 }
 
-.sorter > .tie,.undo,.save {
+.sorter>.tie,
+.undo,
+.save,
+.finished>.save,
+.getimg,
+.list {
   position: relative;
   display: inline-block;
   border: 0px;
   border-radius: 25px;
   margin-top: 15px;
   background:
-    radial-gradient(ellipse 100% 50% at top, rgba(255,255,255,1) 50%, rgba(81,76,73,0) 100%),
-    linear-gradient(rgba(248,247,238,1) 0%, rgba(209,203,184,1) 30%, rgba(209,203,184,1) 60%, rgba(209,203,184,1) 70%, rgba(230,220,189,1) 100%);
+    radial-gradient(ellipse 100% 50% at top, rgba(255, 255, 255, 1) 50%, rgba(81, 76, 73, 0) 100%),
+    linear-gradient(rgba(248, 247, 238, 1) 0%, rgba(209, 203, 184, 1) 30%, rgba(209, 203, 184, 1) 60%, rgba(209, 203, 184, 1) 70%, rgba(230, 220, 189, 1) 100%);
 }
 
-.sorter >  .tie:before,.undo:before,.save:before {
+.sorter>.tie:before,
+.undo:before,
+.save:before,
+.finished>.save:before,
+.getimg:before,
+.list:before {
   content: '';
   position: absolute;
   display: inline-block;
@@ -169,15 +187,15 @@ body {
   border: 3px solid black;
   border-radius: 25px;
   background:
-    linear-gradient(rgba(248,247,238,1) 0%, rgba(211,206,187,1) 70%, rgba(156,152,140,1) 100%);
+    linear-gradient(rgba(248, 247, 238, 1) 0%, rgba(211, 206, 187, 1) 70%, rgba(156, 152, 140, 1) 100%);
   z-index: -1;
 }
 
-.sorter > .left {
+.sorter>.left {
   grid-column: 1 / 2;
 }
 
-.sorter > .right {
+.sorter>.right {
   grid-column: 3 / 4;
 }
 
@@ -187,10 +205,10 @@ body {
   text-align: left;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
-  width: 450px;    
+  width: 450px;
 }
 
-.options > div {
+.options>div {
   font-size: 0.5625em;
 }
 
@@ -202,7 +220,8 @@ label:hover {
   color: #990000;
 }
 
-.options > .large.option, .options > hr {
+.options>.large.option,
+.options>hr {
   grid-column: span 3;
   text-align: center;
   width: 100%;
@@ -274,7 +293,7 @@ label:hover {
   color: #FFF;
 }
 
-.result > .left {
+.result>.left {
   width: 35px;
   padding: 1px 3px 1px 0.5em;
   grid-column: 1 / 2;
@@ -285,14 +304,14 @@ label:hover {
   position: relative;
 }
 
-.result.image > .left span {
+.result.image>.left span {
   position: absolute;
   top: 50%;
   right: 3px;
   margin-top: -0.375em;
 }
 
-.result > .right {
+.result>.right {
   width: 160px;
   padding: 1px 0em 1px 0em;
   grid-column: 2 / 3;
