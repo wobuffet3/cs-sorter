@@ -45,10 +45,10 @@ body {
 
 .sorter {
   margin: 0px auto;
-  display: grid;
-  grid-template-columns: 120px 1fr 120px;
-  grid-gap: 5px;
-  width: 420px;
+    display: grid;
+    grid-template-columns: 1fr minmax(max-content, 1fr) 1fr;
+    grid-gap: 5px;
+    width: fit-content;
 }
 
 .button {
