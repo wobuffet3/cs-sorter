@@ -1,4 +1,4 @@
-﻿@font-face {
+@font-face {
     font-family:'humming';
     src:url('../../Font/FOT-HummingStd-B.otf');
 }
@@ -54,17 +54,7 @@ body {
   background: #f7f7ed;
   border: 2px solid black;
   border-radius: 10px;
-}
-.sorter > .sorting.tie.button {
-  background: red;
-}
-
-.sorter > .sorting.undo.button {
-  background: green;
-}
-
-.sorter .sorting.save.button {
-  background: blue;
+  z-index: -2;
 }
 
 .button {
@@ -73,12 +63,12 @@ body {
   padding: 10%;
   grid-column: 2 / 3;
   cursor: pointer;
-    background-color: #EFE9D9;
+  background-color: #EFE9D9;
 }
 
 .starting.start.button {
   grid-row: span 6;
-    background-color: #EFE9D9;
+  background-color: #EFE9D9;
 }
 
 .starting.load.button {
@@ -154,7 +144,33 @@ body {
   text-align: center;
   font-size: 0.8em;
   line-height: 1.5em;
-    
+}
+
+.sorter > .tie,.undo,.save {
+  position: relative;
+  display: inline-block;
+  border: 0px;
+  border-radius: 25px;
+  margin-top: 15px;
+  background:
+    radial-gradient(ellipse 100% 50% at top, rgba(255,255,255,1) 50%, rgba(81,76,73,0) 100%),
+    linear-gradient(rgba(248,247,238,1) 0%, rgba(209,203,184,1) 30%, rgba(209,203,184,1) 60%, rgba(209,203,184,1) 70%, rgba(230,220,189,1) 100%);
+}
+
+.sorter >  .tie:before,.undo:before,.save:before {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  width: calc(100% + 8px);
+  height: calc(100% + 8px);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid black;
+  border-radius: 25px;
+  background:
+    linear-gradient(rgba(248,247,238,1) 0%, rgba(211,206,187,1) 70%, rgba(156,152,140,1) 100%);
+  z-index: -1;
 }
 
 .sorter > .left {
