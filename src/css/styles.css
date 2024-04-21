@@ -104,6 +104,7 @@ body {
   text-shadow: 0.75pt 1pt white;
   border: 3px solid black;
   border-radius: 25px;
+  /*maybe make this the same style as the sorter itself*/
 }
 
 .loading.button>div {
