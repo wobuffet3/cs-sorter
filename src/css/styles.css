@@ -72,7 +72,7 @@ body {
   grid-row: span 6;
    background:
   radial-gradient(ellipse 100% 50% at top, rgba(255, 255, 255, 1) 50%, rgba(255,196,94,255) 100%),
-  linear-gradient(rgba(255,219,150,255) 0%, rgba(250,193,90,255) 30%, rgba(250,193,90,255) 60%, rgba(250,193,90,255) 70%, rgba(229,157,42,255);
+  linear-gradient(rgba(255,219,150,255) 0%, rgba(250,193,90,255) 30%, rgba(250,193,90,255) 60%, rgba(250,193,90,255) 70%, rgba(229,157,42,255) 100%);
   text-shadow: 0.75pt 1pt white;
   border: 3px solid black;
   border-radius: 25px;
