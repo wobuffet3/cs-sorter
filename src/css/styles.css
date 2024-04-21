@@ -97,6 +97,9 @@ body {
     linear-gradient(rgba(255,247,211,1) 0%, rgba(252, 194, 88, 1) 70%, rgba(221, 145, 39, 1) 100%);
   z-index: -1;
 }
+.starting.start.button:hover {
+  color: #000000;
+}
 
 .starting.load.button {
   grid-row: span 3;
