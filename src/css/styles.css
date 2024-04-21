@@ -71,6 +71,9 @@ body {
 .starting.start.button {
   grid-row: span 6;
   background-color: #EFE9D9;
+  text-shadow: 0.75pt 1pt white;
+  border: 3px solid black;
+  border-radius: 25px;
 }
 
 .starting.load.button {
