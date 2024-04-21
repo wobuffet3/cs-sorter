@@ -74,6 +74,7 @@ body {
 
 .button:hover {
   color: #FFFFFF;
+  background: green
 }
 
 .starting.start.button {
