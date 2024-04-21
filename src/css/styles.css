@@ -70,7 +70,8 @@ body {
 
 .starting.start.button {
   grid-row: span 6;
-  background-color: #EFE9D9;
+   background: rgb(244,239,209);
+background: linear-gradient(180deg, rgba(244,239,209,1) 0%, rgba(255,208,108,1) 89%, rgba(217,140,34,1) 100%);
   text-shadow: 0.75pt 1pt white;
   border: 3px solid black;
   border-radius: 25px;
