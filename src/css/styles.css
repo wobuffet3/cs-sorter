@@ -153,7 +153,7 @@ background: linear-gradient(180deg, rgba(233,230,221,1) 0%, rgba(239,235,214,1) 
   border-radius: 25px;
   border: 0px;
   margin: 15px;
-  /*maybe make this the same style as the sorter itself*/
+  box-shadow: 0px 3px 4px
 }
 
 .loading.button>div {
