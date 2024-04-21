@@ -83,6 +83,9 @@ body {
   text-shadow: 0.75pt 1pt white;
   border: 3px solid black;
   border-radius: 25px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .sorting.button,
