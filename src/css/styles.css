@@ -53,7 +53,7 @@ body {
   width: fit-content;
   padding: 15px;
   background: rgb(233,230,221);
-background: linear-gradient(180deg, rgba(233,230,221,1) 0%, rgba(239,235,214,1) 10%, rgba(239,235,214,1) 90%, rgba(219,208,176,1) 97%, rgba(178,161,124,1) 100%);
+background: linear-gradient(180deg, rgba(233,230,221,1) 0%, rgba(239,235,214,1) 10%, rgba(239,235,214,1) 90%, rgba(219,208,176,1) 97%, rgba(178,161,124,1) 99%);
   border: 2px solid black;
   border-radius: 10px;
   z-index: 1;
@@ -155,22 +155,6 @@ background: linear-gradient(180deg, rgba(233,230,221,1) 0%, rgba(239,235,214,1) 
   border: 0px;
   margin: 15px;
   /*maybe make this the same style as the sorter itself*/
-}
-
-.loading.button:before {
-  content: '';
-  position: absolute;
-  display: inline-block;
-  width: calc(100% + 8px);
-  height: calc(100% + 8px);
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border: 3px solid black;
-  border-radius: 25px;
-  background:
-    linear-gradient(rgba(248, 247, 238, 1) 0%, rgba(211, 206, 187, 1) 70%, rgba(156, 152, 140, 1) 100%);
-  z-index: -1;
 }
 
 .loading.button>div {
