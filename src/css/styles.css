@@ -67,8 +67,13 @@ body {
   cursor: pointer;
   background-color: #EFE9D9;
 }
+
 .button:before {
   box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover {
+  color: #FFFFFF;
 }
 
 .starting.start.button {
@@ -97,9 +102,7 @@ body {
     linear-gradient(rgba(255,247,211,1) 0%, rgba(252, 194, 88, 1) 70%, rgba(221, 145, 39, 1) 100%);
   z-index: -1;
 }
-.starting.start.button:hover {
-  color: #000000;
-}
+
 
 .starting.load.button {
   grid-row: span 3;
