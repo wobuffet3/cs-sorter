@@ -352,11 +352,11 @@ label:hover {
 .result {
   height: 2em;
   margin-bottom: -1px;
-  /*display: grid;*/
+  display: grid;
   justify-content: center;
   align-items: center;
   width: 211px;
-  grid-template-columns: repeat(2, 1fr);
+  /*grid-template-columns: repeat(2, 1fr);*/
   border: 1px solid #000;
   margin-right: 5px;
 }
