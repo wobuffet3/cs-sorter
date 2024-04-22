@@ -329,7 +329,7 @@ label:hover {
 .results {
   font-size: 0.5em;
   display: flex;
-  align-content: center;
+  align-content: flex-start;
   width: 80%;
   margin: 2em auto;
 }
@@ -351,7 +351,9 @@ label:hover {
 .result {
   height: 2em;
   margin-bottom: -1px;
-  display: grid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 211px;
   grid-template-columns: repeat(2, 1fr);
   border: 1px solid #000;
