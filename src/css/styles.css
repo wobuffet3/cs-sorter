@@ -75,7 +75,8 @@ background: linear-gradient(180deg, rgba(233,230,221,1) 0%, rgba(239,235,214,1) 
 
 .button:hover {
   color: #FFFFFF;
-  background: green
+  background: white;
+  opacity: 0.33;
 }
 
 .starting.start.button {
