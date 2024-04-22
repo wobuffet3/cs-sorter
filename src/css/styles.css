@@ -14,7 +14,6 @@ body {
   flex-flow: column nowrap;
   align-items: center;
   margin-top: 1em;
-   align-items: center;
 
 }
 
@@ -330,7 +329,7 @@ label:hover {
 .results {
   font-size: 0.5em;
   display: flex;
-  align-content: flex-start;
+  align-content: center;
   width: 80%;
   margin: 2em auto;
 }
