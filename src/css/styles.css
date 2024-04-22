@@ -75,7 +75,7 @@ background: linear-gradient(180deg, rgba(233,230,221,1) 0%, rgba(239,235,214,1) 
 
 .button:hover {
   background: white;
-  filter: brightness(150%);  
+  filter: brightness(110%);
 }
 
 .starting.start.button {
