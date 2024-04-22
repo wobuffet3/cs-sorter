@@ -145,14 +145,9 @@ background: linear-gradient(180deg, rgba(233,230,221,1) 0%, rgba(239,235,214,1) 
   grid-row: span 6;
   display: none;
   position: relative;
-   background: rgb(233,230,221);
-background: linear-gradient(180deg, rgba(233,230,221,1) 0%, rgba(239,235,214,1) 10%, rgba(239,235,214,1) 90%, rgba(219,208,176,1) 97%, rgba(178,161,124,1) 99%);
-  text-shadow: 0.75pt 1pt white;
-  border: 3px solid black;
-  border-radius: 25px;
-  border: 0px;
   margin: 15px;
-  box-shadow: 0px 3px 4px
+  text-shadow: 0.75pt 1pt white;
+
 }
 
 .loading.button>div {
