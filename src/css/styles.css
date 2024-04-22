@@ -331,8 +331,8 @@ label:hover {
   font-size: 0.5em;
   display: flex;
   align-content: flex-start;
-  /*width: 80%;*/
-  margin: 2em auto;
+  width: 80%;
+  /*margin: 2em auto;*/
 }
 
 @media all and (min-width: 600px) {
