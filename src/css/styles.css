@@ -58,7 +58,6 @@ background: linear-gradient(180deg, rgba(233,230,221,1) 0%, rgba(239,235,214,1) 
   border-radius: 10px;
   z-index: 1;
   box-shadow: 0px 3px 4px;
-  text-align: right;
 }
 
 .button {
@@ -227,6 +226,7 @@ background: linear-gradient(180deg, rgba(233,230,221,1) 0%, rgba(239,235,214,1) 
   width: 256px;
   height: 60px;
   display: none;
+  align-content: center;
 }
 
 .sorter>.text>p {
