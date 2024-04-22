@@ -74,7 +74,7 @@ background: linear-gradient(180deg, rgba(233,230,221,1) 0%, rgba(239,235,214,1) 
 }
 
 .button:hover {
-    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.5);
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.4);
 }
 
 .starting.start.button {
