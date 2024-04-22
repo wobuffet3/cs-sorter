@@ -351,8 +351,8 @@ label:hover {
 
 .result {
   height: 2em;
-  /*margin-bottom: -1px;*/
-  display: grid;
+  margin-bottom: -1px;
+  /*display: grid;*/
   justify-content: center;
   align-items: center;
   width: 211px;
