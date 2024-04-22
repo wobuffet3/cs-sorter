@@ -145,9 +145,31 @@ background: linear-gradient(180deg, rgba(233,230,221,1) 0%, rgba(239,235,214,1) 
   grid-row: span 6;
   display: none;
   position: relative;
-  margin: 15px;
+   background:
+    radial-gradient(ellipse 100% 50% at top, rgba(255, 255, 255, 1) 50%, rgba(81, 76, 73, 0) 100%),
+    linear-gradient(rgba(248, 247, 238, 1) 0%, rgba(209, 203, 184, 1) 30%, rgba(209, 203, 184, 1) 60%, rgba(209, 203, 184, 1) 70%, rgba(230, 220, 189, 1) 100%);
   text-shadow: 0.75pt 1pt white;
+  border: 3px solid black;
+  border-radius: 25px;
+  border: 0px;
+  margin: 15px;
+  /*maybe make this the same style as the sorter itself*/
+}
 
+.loading.button:before {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  width: calc(100% + 8px);
+  height: calc(100% + 8px);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid black;
+  border-radius: 25px;
+  background:
+    linear-gradient(rgba(248, 247, 238, 1) 0%, rgba(211, 206, 187, 1) 70%, rgba(156, 152, 140, 1) 100%);
+  z-index: -1;
 }
 
 .loading.button>div {
