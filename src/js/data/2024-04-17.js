@@ -953,7 +953,7 @@ dataSet[dataSetVersion].characterData = [
     img: "cainsAlt.png",
     opts: {
       race: ["elf"],
-      star: ["3"],
+      star: ["5"],
       ele: ["earth"],
       class: ["tri"],
       gender: ["f"],
