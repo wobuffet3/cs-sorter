@@ -1693,7 +1693,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Spring Snow Snegurochka",
+    name: "Snegurochka of the Radiant Snow",
     img: "snegurochkaAlt.png",
     opts: {
       race: ["dwarf"],
