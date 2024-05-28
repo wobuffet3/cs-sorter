@@ -1,4 +1,4 @@
-dataSetVersion = "2024-04-17"; // Change this when creating a new data set version. YYYY-MM-DD format.
+dataSetVersion = "2024-05-28"; // Change this when creating a new data set version. YYYY-MM-DD format.
 dataSet[dataSetVersion] = {};
 
 dataSet[dataSetVersion].options = [
@@ -2819,6 +2819,28 @@ dataSet[dataSetVersion].characterData = [
       ele: ["light"],
       class: ["mk"],
       gender: ["f"]
+    }
+  },
+  {
+    name: "Crown Prince Valiant",
+    img: "valiantAlt.png",
+    opts: {
+      race: ["elf"],
+      star: ["5"],
+      ele: ["light"],
+      class: ["sh"],
+      gender: ["m"]
+    }
+  },
+  {
+    name: "Mr. Reincarnation",
+    img: "uncle.png",
+    opts: {
+      race: ["hum"],
+      star: ["3"],
+      ele: ["org"],
+      class: ["mk"],
+      gender: ["m"]
     }
   }
 ];
