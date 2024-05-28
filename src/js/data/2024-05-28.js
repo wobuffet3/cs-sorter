@@ -2836,7 +2836,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Mr. Reincarnation",
     img: "uncle.png",
     opts: {
-      race: ["hum"],
+      race: ["human"],
       star: ["3"],
       ele: ["org"],
       class: ["mk"],
