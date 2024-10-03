@@ -2842,6 +2842,7 @@ dataSet[dataSetVersion].characterData = [
       ele: ["org"],
       class: ["mk"],
       gender: ["m"]
+    }
     },
     {
     name: "Princess Lena",
